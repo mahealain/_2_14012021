@@ -31,11 +31,52 @@ p , h1 ,h2 ,
 {
 display:flex;
 border: 3px solid #F2F2F2;
-border: 1px solid #181818;
+border-radius: 10px;
+width: 250px ;
+height: 20px ;
+margin: 0;
+padding: 0;
+border: 0;
+
+overflow: hidden;
+font-size: 1em;
+
+
+
+}
+
+#icones_recherche
+{
+
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#recherche_ville
+{
+    
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 0.1em;
 }
 
 #mot_recherche
 {
     background-color: #0065FC;
-    ba
+    color:white;
+  
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 0.4em;
+
+    
+    
+}
+
+form {
+    margin: 0;
 }
