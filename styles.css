@@ -18,6 +18,19 @@ p , h1 ,h2 ,
     font-family:ralewaythin,Arial, Helvetica, sans-serif ;
 }
 
+
+img {
+	max-width: 20%;
+	height: auto;
+}
+
+#haut_header
+{
+    display:flex;
+    flex-direction:row;
+
+}
+
 #block_page
 {
     
