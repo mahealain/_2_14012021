@@ -161,12 +161,52 @@ margin:auto;
     font-size: 0.20em;
     margin: 10px;
 }
-#nombre_logement p
-{
-    font-size: 0.75em;
-    margin: 10px;
-}
+
 .en_gras
 {
     font-weight: bold;
 }
+#herbergement
+{
+    display:flex;
+    flex-direction:row;
+    height: 500px;
+    
+    
+}
+article
+{
+    flex: 75;
+    background-color: #DEEBFF;
+    margin: 10px 10px 10px 0;
+    border-radius: 20px;
+    height: 500px;
+    display:flex;
+    flex-direction:column;
+    border:3px solid black;
+}
+#tout_her
+{
+    border:3px solid black;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.hotel
+{
+    width:25%;
+    margin:10px 10px 10px 10px;
+    border:3px solid red;
+}
+aside
+{
+    flex:25;
+    background-color: #DEEBFF;
+    border-radius: 20px;
+    margin: 10px 0px 10px 10px;
+    display:flex;
+    flex-direction:column;
+    border:3px solid black;
+}
+
