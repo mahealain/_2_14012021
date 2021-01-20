@@ -35,7 +35,7 @@ img {
 #block_page
 {
     
-        width: 900px;
+        width: 1200px;
         margin: auto;
         background-color: white;
 }
@@ -143,7 +143,7 @@ margin:auto;
 {
     display:flex;
     flex-direction:row;
-
+    font-size: 0.9em;
 }
 .fa-info
 {
@@ -158,7 +158,7 @@ margin:auto;
 }
 #nombre_logement p
 {
-    font-size: 0.20em;
+    font-size: 0.8em;
     margin: 10px;
 }
 
