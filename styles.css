@@ -117,8 +117,12 @@ margin:auto;
     border: 3px solid #F2F2F2;
     display:flex;
     flex-direction:row;
-    margin:2px;
+    margin:1px;
     border-radius: 50px;
+}
+.pfiltre
+{
+    margin: 0 0 0 0;
 }
 
 .fa-money-bill-wave /*pour maitre en bleu les icones de https://fontawesome.com/ */
