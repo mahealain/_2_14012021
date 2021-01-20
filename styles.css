@@ -284,4 +284,12 @@ aside
     border-radius: 10px 10px 0 0 ; 
     border:3px solid rgb(129, 66, 14);  
 }
-
+footer
+{
+    margin:20px 0 ;
+    background-color: #DEEBFF;
+    height: 250px;
+    display:flex;
+    flex-direction:row;
+    border:3px solid rgba(15, 64, 138, 0.979);
+}
