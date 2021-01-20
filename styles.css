@@ -217,3 +217,71 @@ aside
     border-radius: 10px;  
 }
 
+#activites
+{
+    display:flex;
+    flex-direction:column;
+    border:3px solid purple;
+}
+#tout_acti
+{
+    display:flex;
+    flex-direction:row;
+    border:3px solid yellow;
+ 
+}
+#acti_c1
+{
+    display:flex;
+    flex-direction:column;
+    border:3px solid rgb(255, 0, 34);
+    width:23%;
+    margin:5px;
+    border-radius: 10px 10px 0 0 ; 
+}
+#acti_c2
+{
+    display:flex;
+    flex-direction:column;
+    border:3px solid blue;
+    width:23%;
+    margin:5px;
+}
+#acti_c2_l1
+{
+    border-radius: 10px 10px 0 0 ; 
+    border:3px solid rgb(34, 30, 30);
+}
+#acti_c2_l2
+{
+    border-radius: 10px 10px 0 0 ; 
+    border:3px solid rgb(194, 34, 34);   
+}
+#acti_c3
+{
+    display:flex;
+    flex-direction:column;
+    border:3px solid rgb(107, 13, 52);
+    width:23%;
+    margin:5px;
+    border-radius: 10px 10px 0 0 ;
+}
+#acti_c4
+{
+    display:flex;
+    flex-direction:column;
+    border:3px solid green;
+    width:23%;
+    margin:5px;
+}
+#acti_c4_l1
+{
+    border-radius: 10px 10px 0 0 ; 
+    border:3px solid rgb(52, 4, 92);  
+}
+#acti_c4_l2
+{
+    border-radius: 10px 10px 0 0 ; 
+    border:3px solid rgb(129, 66, 14);  
+}
+
