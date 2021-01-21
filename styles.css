@@ -84,9 +84,9 @@ font-size: 1em;
     color:white;
   
         margin: 0;
-        padding: 0;
+        padding: 0px 10px 50px 10px; /*même en mettent 50 en bas sa remonte pas*/
         border: 0;
-        font-size: 0.4em;
+        font-size: 0.8em;
 
     
     
