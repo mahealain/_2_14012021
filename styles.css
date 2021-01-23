@@ -13,7 +13,7 @@
 }
 
 
-p , h1 ,h2 , 
+p , h1 ,h2  
 {
     font-family:ralewaythin,Arial, Helvetica, sans-serif ;
 
@@ -29,7 +29,13 @@ img {
 {
     display:flex;
     flex-direction:row;
+    text-align: flex-end;
 
+}
+#bas_header
+{
+    display: flex;
+    flex-direction: column;
 }
 
 #block_page
@@ -38,69 +44,106 @@ img {
         width: 1200px;
         margin: auto;
         background-color: white;
-}
-
-
-#block_recherche
-{
-display:flex;
-border: 3px solid #F2F2F2;
-border-radius: 20px;
-width: 250px ;
-height: 30px ;
-margin: 0;
-padding: 3px;
-border: 0;
-
-overflow: hidden;
-font-size: 1em;
-
-
 
 }
 
-#icones_recherche
-{
+/*debut du bloc de recherche*/
 
+
+}
+.formulairecherche
+{
+    display: inline-flex;
+    max-width: 100%;
+    overflow: auto;
+}
+.place_logo {
     background-color: #F2F2F2;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-#recherche_ville
+    padding: 1em 1.25em;
+    border-radius: 1em 0 0 1em;
+    text-align: center;
+  }
+  .formicone
 {
-    
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 0.1em;
-    
+    margin-left: 0.1em;
 }
 
-#mot_recherche
+.formilleu
+{
+    border-right: none;
+    border-left: none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    padding: 0 1.5em;
+    box-sizing: border-box;
+    width: 14em;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+.formilleu ::placeholder
+{
+    font-size: 1em;
+    color: #000000;
+}
+.boutonrecherche
 {
     background-color: #0065FC;
-    color:white;
-  
-        margin: 0;
-        padding: 0px 10px 50px 10px; /*même en mettent 50 en bas sa remonte pas*/
-        border: 0;
-        font-size: 0.8em;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 1em 1em 0;
+    padding: 0 1.5em;
+    font-size: 1em;
 
-    
-    
+
+
+  }
+
+
+@media screen and (max-width: 999px) {
+    .formulairecherche 
+         {
+            display: flex;
+            width: 100%;
+          }
+          .formilleu
+          {
+            flex: 1;
+          }
+          formfin
+          {
+            display: none;
+          }
+          .formsous {
+            display: block;
+          }
+
 }
+@media screen and (min-width:1000px) {
 
-form {
-    margin: 0;
-    border-width: 0px
+  .formfin {
+    display: block;
+  }
+  .formsous {
+    display: none ;
+  }
+
+
+
+
+
+    
+    
 }
 
 #tfiltres /*debut bouton filtres*/
 {
     display:flex;
     flex-direction:row;
+    width:10%;
+   
+
 
 }
 
@@ -109,7 +152,7 @@ form {
 padding:20px;
 border-radius: 50px;
 background-color: #DEEBFF;
-margin:auto;
+margin:0px;
 }
 
 .fbouton
@@ -302,16 +345,22 @@ footer
     border:3px solid rgb(44, 7, 16);
     width:33%;
     padding:0 10px;
+    display:flex;
+    flex-direction:column;
 }
 #herber_footer
 {
     border:3px solid rgb(185, 101, 31);
     width:33%;
     padding:0 10px;
+    display:flex;
+    flex-direction:column;
 }
 #assistance
 {
     border:3px solid rgb(92, 4, 80);
     width:33%;
     padding:0 10px;
+    display:flex;
+    flex-direction:column;
 }

@@ -35,20 +35,25 @@
                 
                  </div>
                 <div id="block_recherche">
-                    <div id="icones_recherche">
-                    <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <div id="recherche_ville">
-                    <form method="post" action="traitement.php">
-                        <p>
-                        <input type="text" name="recherche" id="recherche" placeholder="Marseille,France" />
-                        </p>
+
+                    <form class="formulairecherche" method="post" action="traitement.php">
+                        <span class="place_logo">
+                            <i class="fas fa-map-marker-alt formicone"></i>
+                        </span>
+                        <input class="formilleu" type="text" name="recherche" id="recherche" placeholder="Marseille,France"size="1" />
+                        <button class="boutonrecherche">
+                          <span class="formfin">Rechercher</span>
+                          <i class="formsous fas fa-search"></i>
+                        </button>
                     </form>
-                    </div>
-                    <div id="mot_recherche">
-                    <p>recherche</p>
-                    </div>    
+
+                    
+
+
+
+
                 </div>
+
                 <div id="tfiltres"><!--debut bouton filtres-->
                     <p>filtres</p>
                     <div class="fbouton">
