@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');/*appelle de la police raleway dasn google font*/
 
+body
+{
+    margin:0;
+}
+
 p , h1 ,h2  
 {
     font-family:'Raleway',Arial, Helvetica, sans-serif ;
@@ -27,7 +32,7 @@ img {
 #block_page
 {
     
-        width: 1200px;
+        width: 100%;
         margin: auto;
         background-color: white;
 
@@ -204,7 +209,7 @@ margin:0px;
 {
     display:flex;
     flex-direction:row;
-    height: 500px;
+    height: auto;
     
     
 }
@@ -214,7 +219,7 @@ article
     background-color: #DEEBFF;
     margin: 10px 10px 10px 0;
     border-radius: 20px;
-    height: 350px;
+    height: auto;
     display:flex;
     flex-direction:column;
     border:3px solid black;
@@ -271,6 +276,7 @@ aside
     border:3px solid rgb(255, 0, 34);
     width:23%;
     margin:5px;
+    height: auto;
     border-radius: 10px 10px 0 0 ; 
 }
 #acti_c2
@@ -280,16 +286,19 @@ aside
     border:3px solid blue;
     width:23%;
     margin:5px;
+    height: auto;
 }
 #acti_c2_l1
 {
     border-radius: 10px 10px 0 0 ; 
     border:3px solid rgb(34, 30, 30);
+    height: 49%;
 }
 #acti_c2_l2
 {
     border-radius: 10px 10px 0 0 ; 
     border:3px solid rgb(194, 34, 34);   
+    height: 49%;
 }
 #acti_c3
 {
@@ -299,6 +308,7 @@ aside
     width:23%;
     margin:5px;
     border-radius: 10px 10px 0 0 ;
+    height: auto;
 }
 #acti_c4
 {
@@ -307,22 +317,25 @@ aside
     border:3px solid green;
     width:23%;
     margin:5px;
+    height: auto;
 }
 #acti_c4_l1
 {
     border-radius: 10px 10px 0 0 ; 
-    border:3px solid rgb(52, 4, 92);  
+    border:3px solid rgb(52, 4, 92); 
+    height: 49%; 
 }
 #acti_c4_l2
 {
     border-radius: 10px 10px 0 0 ; 
-    border:3px solid rgb(129, 66, 14);  
+    border:3px solid rgb(129, 66, 14);
+    height: 49%;  
 }
 footer
 {
     margin:20px 0 ;
     background-color: #DEEBFF;
-    height: 180px;
+    height: auto;
     display:flex;
     flex-direction:row;
     border:3px solid rgba(15, 64, 138, 0.979);
@@ -334,6 +347,7 @@ footer
     padding:0 10px;
     display:flex;
     flex-direction:column;
+    height: auto;
 }
 #herber_footer
 {
@@ -342,6 +356,7 @@ footer
     padding:0 10px;
     display:flex;
     flex-direction:column;
+    height: auto;
 }
 #assistance
 {
@@ -350,4 +365,5 @@ footer
     padding:0 10px;
     display:flex;
     flex-direction:column;
+    height: auto;
 }
