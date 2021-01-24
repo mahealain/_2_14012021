@@ -1,23 +1,9 @@
-
-
-@font-face {
-    font-family: 'ralewaythin';
-    src: url('police_raleway/raleway-variablefont_wght-webfont.eot');
-    src: url('police_raleway/raleway-variablefont_wght-webfont.eot?#iefix') format('embedded-opentype'),
-         url('police_raleway/raleway-variablefont_wght-webfont.woff2') format('woff2'),
-         url('police_raleway/raleway-variablefont_wght-webfont.woff') format('woff'),
-         url('police_raleway/raleway-variablefont_wght-webfont.ttf') format('truetype'),
-         url('police_raleway/raleway-variablefont_wght-webfont.svg#ralewaythin') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');/*appelle de la police raleway dasn google font*/
 
 p , h1 ,h2  
 {
-    font-family:ralewaythin,Arial, Helvetica, sans-serif ;
-
-}
+    font-family:'Raleway',Arial, Helvetica, sans-serif ;
+}/*demande de la police Raleway en priorite*/
 
 
 img {
@@ -30,8 +16,8 @@ img {
     display:flex;
     flex-direction:row;
     text-align: flex-end;
-
 }
+
 #bas_header
 {
     display: flex;
@@ -128,6 +114,7 @@ img {
   .formsous {
     display: none ;
   }
+
 
 
 
