@@ -286,12 +286,13 @@ margin:0px;
     display:flex;
     flex-direction:row;
     height: auto;
+    width: 100%;
 
     
 }
 article
 {
-    flex: 75;
+    width:74%;
     background-color: #DEEBFF;
     margin: 10px 10px 10px 0;
     border-radius: 20px;
@@ -332,7 +333,7 @@ article
 }
 aside
 {
-    flex:25;
+    width:24%;
     background-color: #DEEBFF;
     border-radius: 20px;
     margin: 10px 0px 10px 10px;
@@ -359,6 +360,7 @@ aside
     display:flex;
     flex-direction:row;
     border:3px solid yellow;
+    width: 100%;
  
 }
 #acti_c1
@@ -385,12 +387,14 @@ aside
     border-radius: 10px 10px 0 0 ; 
     border:3px solid rgb(34, 30, 30);
     height: 49%;
+    width:23%;
 }
 #acti_c2_l2
 {
     border-radius: 10px 10px 0 0 ; 
     border:3px solid rgb(194, 34, 34);   
     height: 49%;
+    width:23%;
 }
 #acti_c3
 {
@@ -416,12 +420,14 @@ aside
     border-radius: 10px 10px 0 0 ; 
     border:3px solid rgb(52, 4, 92); 
     height: 49%; 
+    width:23%;
 }
 #acti_c4_l2
 {
     border-radius: 10px 10px 0 0 ; 
     border:3px solid rgb(129, 66, 14);
     height: 49%;  
+    width:23%;
 }
 footer
 {
@@ -436,7 +442,7 @@ footer
 #a_propos
 {
     border:3px solid rgb(44, 7, 16);
-    width:33%;
+    width:32%;
     padding:0 10px;
     display:flex;
     flex-direction:column;
@@ -445,7 +451,7 @@ footer
 #herber_footer
 {
     border:3px solid rgb(185, 101, 31);
-    width:33%;
+    width:32%;
     padding:0 10px;
     display:flex;
     flex-direction:column;
@@ -454,7 +460,7 @@ footer
 #assistance
 {
     border:3px solid rgb(92, 4, 80);
-    width:33%;
+    width:32%;
     padding:0 10px;
     display:flex;
     flex-direction:column;
