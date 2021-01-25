@@ -10,7 +10,10 @@ body
 {
     font-family:'Raleway',Arial, Helvetica, sans-serif ;
 }/*demande de la police Raleway en priorite*/
-
+:hover.blocknav
+{
+    background-color: #DEEBFF;
+}
 .logo
 {
     height: 50px;
@@ -54,35 +57,31 @@ nav
     height: 100%;
     flex:33;
     
-}
-nav ul
-{
-    flex:329;
+
+    flex:1;
 }
 .barnav{
     display: flex;
     display:inline-block;
-    flex-direction: row;
+    flex-direction: column;
     height:100%;
-    width: 100%;
+    width: 20%;
     background-color: #f2a2c4;
     margin:0;
     padding:0;
  
   }
-.blocknav
-{
+  .barnav il
+  {
     display: flex;
-    display: block;
-    flex-direction: row;
-    border:solid 1px blue;
-    background-color: #1bd5ee;
-    justify-content: stretch;
-    flex:33;
-    margin:auto;
-    margin:0;
-    padding:0;
-}
+    background-color: cyan;
+    flex-direction:row;
+    flex:1;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+  }
+
 
 
 #haut_header
