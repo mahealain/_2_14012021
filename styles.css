@@ -342,6 +342,7 @@ aside
     display:flex;
     flex-direction:column;
     border:3px solid purple;
+    width: 100%;
 }
 #tout_acti
 {
@@ -420,6 +421,7 @@ footer
     display:flex;
     flex-direction:row;
     border:3px solid rgba(15, 64, 138, 0.979);
+    width:100%;
 }
 #a_propos
 {
