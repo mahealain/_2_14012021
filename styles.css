@@ -15,13 +15,6 @@ body
 {
     height: 50px;
 }
-#bloklogo 
-{
-    display:flex;
-    justify-items: flex-start;
-    border:rgb(255, 71, 71) 2px solid;
-
-}
 #haut_header
 {
     border:purple 1px solid;
@@ -30,15 +23,24 @@ body
     flex-direction:row;
     border:3px solid yellow;
     width: 100%;
+}
+#bloklogo 
+{
+    display:flex;
+    border:rgb(255, 71, 71) 2px solid;
+    width: 70%;
+    margin:0;
+    padding: 0;
 
 }
+
 
 #headerhd
 {
     display:flex;
     flex-direction:row;  
-    justify-items: flex-end;
-    background-color: teal;
+    background-color: rgb(116, 43, 235);
+    flex: 25%;
 }
 nav
 {
@@ -50,27 +52,36 @@ nav
     margin:0;
     padding: 0;
     height: 100%;
+    flex:33;
     
+}
+nav ul
+{
+    flex:329;
 }
 .barnav{
     display: flex;
     display:inline-block;
-    justify-content:flex-end;
+    flex-direction: row;
     height:100%;
+    width: 100%;
     background-color: #f2a2c4;
+    margin:0;
+    padding:0;
+ 
   }
 .blocknav
 {
     display: flex;
-    display:inline-block;
-    border:solid 2px blue;
-    width:30%;
-    height: 100%;
+    display: block;
+    flex-direction: row;
+    border:solid 1px blue;
+    background-color: #1bd5ee;
+    justify-content: stretch;
+    flex:33;
+    margin:auto;
     margin:0;
-    height: 100px;
-    justify-content: flex-end;
-    flex-direction:row;
-    background-color: #25141c;
+    padding:0;
 }
 
 
@@ -78,9 +89,10 @@ nav
 {
     flex-direction:row;
     display: flex;
-    width: 90%;
-    margin: auto;
-    margin-top: 0px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
 }
 
 #bas_header
@@ -96,7 +108,7 @@ nav
         margin: 0;
         bottom: 0;
         background-color: rgb(134, 88, 241);
-        border:solid 2px green;
+        border:solid 2px rgb(218, 233, 14);
 
 }
 
@@ -242,6 +254,7 @@ margin:0px;
 .fa-dog
 {
     color:#0065FC;
+    text-justify: auto ;
 }/*fin bouton filtres*/
 
 #nombre_logement
