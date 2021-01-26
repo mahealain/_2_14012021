@@ -178,12 +178,9 @@ block_recherche
     font-weight: bold;
     border-top: #0065FC 15px solid;
     border-radius: 0 1em 1em 0;
-
     font-size: 1em;
+ }
 
-
-
-  }
   .formfin
 {
     margin:auto;
@@ -218,20 +215,16 @@ block_recherche
     display: none ;
   }
 
-
-
-
-
-
-    
-    
 }
 
 #tfiltres /*debut bouton filtres*/
+
+
 {
     display:flex;
     flex-direction:row;
-    width:10%;
+    width:100%;
+    margin-left: 1em;
    
 
 
@@ -240,9 +233,9 @@ block_recherche
 .filtres
 {
 padding:20px;
-border-radius: 50px;
+border-radius: 50%;
 background-color: #DEEBFF;
-margin:0px;
+
 }
 
 .fbouton
@@ -252,10 +245,14 @@ margin:0px;
     flex-direction:row;
     margin:1px;
     border-radius: 50px;
+    height: 50x;
+    margin:0 1em 0 1em ;
 }
 .pfiltre
 {
-    margin: 0 0 0 0;
+    text-align: center;
+    margin: 0 1em 0 1em;
+
 }
 
 .fa-money-bill-wave /*pour maitre en bleu les icones de https://fontawesome.com/ */
@@ -282,6 +279,7 @@ margin:0px;
     display:flex;
     flex-direction:row;
     font-size: 0.9em;
+    margin-left: 1em;
 }
 .fa-info
 {
