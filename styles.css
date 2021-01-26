@@ -362,15 +362,44 @@ aside
     flex-direction:column;
     border:3px solid black;
 }   
+.populairet
+{
+    display:flex;
+    display:inline-block;
+    border:3px solid rgb(212, 43, 43);  
+    flex-direction:row;
 
-h1 
-{
-    text-align: right;
 }
-h1 span
+.populaireh
 {
-    text-align: left;
+    display:flex;
+    display:inline-block;
+    border:3px solid rgb(212, 43, 184); 
+    width: 65%;
+    padding-left: 1em;
 }
+.diagrame
+{
+    display:flex;
+    display:inline-block; 
+     border:3px solid rgb(22, 4, 122);
+     background-color: rgb(176, 204, 168);
+     width: 8%;
+     padding-right: 0;
+
+}
+.fa-chart-line
+{
+    display:flex;
+    display:inline-block;
+    padding-right: 1px;
+    border:3px solid rgb(166, 168, 9);
+    background-color: rgb(248, 188, 188);
+    padding-right: 0;
+
+
+}
+
 .populaires
 {
     margin:10px 10px 10px 10px;
