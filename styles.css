@@ -413,15 +413,15 @@ aside
 {
     border-radius: 10px 10px 0 0 ; 
     border:3px solid rgb(34, 30, 30);
-    height: 49%;
-    width:23%;
+    height: 50%;
+    width:100%;
 }
 #acti_c2_l2
 {
     border-radius: 10px 10px 0 0 ; 
     border:3px solid rgb(194, 34, 34);   
-    height: 49%;
-    width:23%;
+    height: 50%;
+    width:100%;
 }
 #acti_c3
 {
@@ -446,15 +446,15 @@ aside
 {
     border-radius: 10px 10px 0 0 ; 
     border:3px solid rgb(52, 4, 92); 
-    height: 49%; 
-    width:23%;
+    height: 50%; 
+    width:100%;
 }
 #acti_c4_l2
 {
     border-radius: 10px 10px 0 0 ; 
     border:3px solid rgb(129, 66, 14);
-    height: 49%;  
-    width:23%;
+    height: 50%;  
+    width:100%;
 }
 footer
 {
