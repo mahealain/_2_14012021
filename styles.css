@@ -338,10 +338,10 @@ article
 {
 
     display:flex;
-    width: auto;
+    width: 90%;
     margin: 10px 10px;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 
@@ -351,8 +351,8 @@ article
     
     border:3px solid red;
     border-radius: 10px;
-    width: auto;
     margin:10px 10px 10px 10px;
+    width :33%;
 }
 aside
 {
@@ -363,6 +363,10 @@ aside
     display:flex;
     flex-direction:column;
     border:3px solid black;
+}
+.fa-chart-line
+{
+    border-right: 0;
 }
 .populaires
 {
