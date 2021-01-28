@@ -276,11 +276,12 @@ article {
 }
 
 .hotel {
-  border: 3px solid red;
   border-radius: 10px;
   margin: 10px 10px 10px 10px;
   width: 29%;
   background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 aside {
   width: 24%;
@@ -437,4 +438,15 @@ footer {
   display: flex;
   flex-direction: column;
   height: auto;
+}
+.hotel img {
+  margin: 3px;
+  width: auto%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+hotel2 {
+  display: flex;
+  flex-direction: row;
 }
