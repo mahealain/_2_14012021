@@ -145,6 +145,7 @@ block_recherche {
   border-top: #0065fc 15px solid;
   border-radius: 0 1em 1em 0;
   font-size: 1em;
+  cursor: pointer;
 }
 
 .formfin {
