@@ -12,12 +12,10 @@ ul {
   flex-direction: row;
   height: 100%;
   width: 100%;
-  background-color: chartreuse;
   margin: 0;
   padding: 0;
 }
 il:hover {
-  background-color: gold;
   border-top: solid 3px blue;
   width: 33%;
   text-align: center;
@@ -26,7 +24,6 @@ il {
   flex: 1;
   display: block;
   width: 33%;
-  background-color: coral;
   text-align: center;
 }
 
@@ -40,16 +37,12 @@ il {
   height: 40px;
 }
 #haut_header {
-  border: purple 1px solid;
-  background-color: violet;
   display: flex;
   flex-direction: row;
-  border: 3px solid yellow;
   width: 100%;
 }
 #bloklogo {
   display: flex;
-  border: rgb(255, 71, 71) 2px solid;
   width: 70%;
   margin: 0;
   padding: 0;
@@ -58,14 +51,12 @@ il {
 #headerhd {
   display: flex;
   flex-direction: row;
-  background-color: rgb(116, 43, 235);
   flex: 25%;
 }
 nav {
   width: auto;
   display: flex;
   flex-direction: row;
-  border: solid 1px black;
   align-items: flex-end;
   margin: 0;
   padding: 0;
@@ -80,8 +71,8 @@ nav {
   display: block;
   height: 100%;
   width: 100%;
-  background-color: #f2a2c4;
-  margin: 0;
+
+   margin: 0;
   padding: 0;
 }
 
@@ -91,7 +82,7 @@ nav {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: cornsilk;
+ 
 }
 
 #bas_header {
@@ -103,8 +94,7 @@ nav {
   width: 100%;
   margin: 0;
   bottom: 0;
-  background-color: rgb(134, 88, 241);
-  border: solid 2px rgb(218, 233, 14);
+
 }
 
 /*debut du bloc de recherche*/
@@ -140,7 +130,7 @@ block_recherche {
 }
 .boutonrecherche {
   background-color: #0065fc;
-  color: white;
+
   font-weight: bold;
   border-top: #0065fc 15px solid;
   border-radius: 0 1em 1em 0;
@@ -247,20 +237,20 @@ block_recherche {
   flex-direction: row;
   height: auto;
   width: 100%;
-  background-color: #f2f2f2;
+  
 }
 article {
   width: 73%;
-  background-color: #deebff;
+  background-color: #f2f2f2;
   margin: 10px 10px 10px 0;
   border-radius: 20px;
   height: auto;
   display: flex;
   flex-direction: column;
-  border: 3px solid black;
+
 }
-#tout_her {
-  border: 3px solid black;
+.tout_her {
+  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -286,41 +276,38 @@ article {
 }
 aside {
   width: 24%;
-  background-color: #deebff;
+  background-color: #f2f2f2;
   border-radius: 20px;
   margin: 10px 0px 10px 10px;
   display: flex;
   flex-direction: column;
-  border: 3px solid black;
+
 }
 .populairet {
   display: flex;
   display: inline-block;
-  border: 3px solid rgb(212, 43, 43);
+ 
   flex-direction: row;
   background-color: #f2f2f2;
 }
 .populaireh {
   display: flex;
   display: inline-block;
-  border: 3px solid rgb(212, 43, 184);
+ 
   width: 65%;
   padding-left: 1em;
 }
 .diagrame {
   display: flex;
   display: inline-block;
-  border: 3px solid rgb(22, 4, 122);
-  background-color: rgb(176, 204, 168);
   width: 8%;
   padding-right: 0;
+  
 }
 .fa-chart-line {
   display: flex;
   display: inline-block;
   padding-right: 1px;
-  border: 3px solid rgb(166, 168, 9);
-  background-color: rgb(248, 188, 188);
   padding-right: 0;
 }
 
@@ -328,10 +315,9 @@ aside {
   display: flex;
   flex-direction: row;
   margin: 10px 10px 10px 10px;
-  border: 3px solid red;
   border-radius: 10px;
-  background-color: white;
   height: 30%;
+  background-color:none;
 }
 .bleufonce {
   color: #0065fc;
@@ -343,19 +329,16 @@ aside {
 .activites {
   display: flex;
   flex-direction: column;
-  border: 3px solid purple;
   width: 100%;
 }
 .tout_acti {
   display: flex;
   flex-direction: row;
-  border: 3px solid yellow;
   width: 100%;
 }
 .acti_c1 {
   display: flex;
   flex-direction: column;
-  border: 3px solid rgb(255, 0, 34);
   width: 23%;
   margin: 5px;
   height: auto;
@@ -364,21 +347,18 @@ aside {
 .acti_c2 {
   display: flex;
   flex-direction: column;
-  border: 3px solid blue;
   width: 23%;
   margin: 5px;
   height: auto;
 }
 .acti_c2_l1 {
   border-radius: 10px 10px 10px 10px;
-  border: 3px solid rgb(34, 30, 30);
   height: 60%;
   width: 100%;
   display: flex;
  flex-direction: column;}
 .acti_c2_l2 {
 	border-radius: 10px 10px 10px 10px;
-  border: 3px solid rgb(194, 34, 34);
   height: 40%;
   width: 100%;
   display:flex;
@@ -387,7 +367,6 @@ aside {
 .acti_c3 {
   display: flex;
   flex-direction: column;
-  border: 3px solid rgb(107, 13, 52);
   width: 23%;
   margin: 5px;
   border-radius: 10px 10px 10px 10px;
@@ -396,20 +375,17 @@ aside {
 .acti_c4 {
   display: flex;
   flex-direction: column;
-  border: 3px solid green;
   width: 23%;
   margin: 5px;
   height: auto;
 }
 .acti_c4_l1 {
 	border-radius: 10px 10px 10px 10px;;
-  border: 3px solid rgb(52, 4, 92);
   height: 50%;
   width: 100%;
 }
 .acti_c4_l2 {
 	border-radius: 10px 10px 10px 10px;
-  border: 3px solid rgb(129, 66, 14);
   height: 50%;
   width: 100%;
 }
@@ -419,11 +395,9 @@ footer {
   height: auto;
   display: flex;
   flex-direction: row;
-  border: 3px solid rgba(15, 64, 138, 0.979);
   width: 100%;
 }
 #a_propos {
-  border: 3px solid rgb(44, 7, 16);
   width: 32%;
   padding: 0 10px;
   display: flex;
@@ -431,7 +405,6 @@ footer {
   height: auto;
 }
 #herber_footer {
-  border: 3px solid rgb(185, 101, 31);
   width: 32%;
   padding: 0 10px;
   display: flex;
@@ -439,7 +412,6 @@ footer {
   height: auto;
 }
 #assistance {
-  border: 3px solid rgb(92, 4, 80);
   width: 32%;
   padding: 0 10px;
   display: flex;
@@ -505,7 +477,7 @@ article h1 ,article p, .etoiles , article h2
 	max-height: 90%;
 	object-fit: cover;
 	border-radius: 10px 10px 0 0;
-	border:3px solid blueviolet;
+
 }
 .acti_c4_l1 img
 {
@@ -526,7 +498,7 @@ article h1 ,article p, .etoiles , article h2
 	max-height: 80%;
 	object-fit: cover;
 	border-radius: 10px 10px 0 0;
-	border:3px solid blueviolet;
+
 }
 .activites p ,.activites h1
 {
