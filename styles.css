@@ -5,6 +5,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: #000000;
 }
 
 ul {
@@ -32,6 +33,7 @@ il {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 1em;
 } /*demande de la police Raleway en priorite*/
+
 :hover.blocknav {
   background-color: #deebff;
 }
