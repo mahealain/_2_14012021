@@ -6,6 +6,7 @@ body {
 a {
   text-decoration: none;
 }
+
 ul {
   display: block;
   display: flex;
@@ -29,6 +30,7 @@ il {
 
 * {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-size: 1em;
 } /*demande de la police Raleway en priorite*/
 :hover.blocknav {
   background-color: #deebff;
@@ -72,7 +74,7 @@ nav {
   height: 100%;
   width: 100%;
 
-   margin: 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -82,7 +84,6 @@ nav {
   width: 100%;
   margin: 0;
   padding: 0;
- 
 }
 
 #bas_header {
@@ -94,7 +95,6 @@ nav {
   width: 100%;
   margin: 0;
   bottom: 0;
-
 }
 
 /*debut du bloc de recherche*/
@@ -237,7 +237,6 @@ block_recherche {
   flex-direction: row;
   height: auto;
   width: 100%;
-  
 }
 article {
   width: 73%;
@@ -247,10 +246,8 @@ article {
   height: auto;
   display: flex;
   flex-direction: column;
-
 }
 .tout_her {
-  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -260,7 +257,7 @@ article {
 .ligneherbergement {
   display: flex;
   width: 98%;
-  height:48%;
+  height: 48%;
 
   flex-direction: row;
   justify-content: space-around;
@@ -277,23 +274,22 @@ article {
 aside {
   width: 24%;
   background-color: #f2f2f2;
-  border-radius: 20px;
-  margin: 10px 0px 10px 10px;
+  border-radius: 10px 10px;
+  margin: 10px 10px 10px 10px;
   display: flex;
   flex-direction: column;
-
 }
 .populairet {
   display: flex;
   display: inline-block;
- 
+  border-radius: 10px 10px 0 0;
   flex-direction: row;
   background-color: #f2f2f2;
 }
 .populaireh {
   display: flex;
   display: inline-block;
- 
+
   width: 65%;
   padding-left: 1em;
 }
@@ -302,7 +298,6 @@ aside {
   display: inline-block;
   width: 8%;
   padding-right: 0;
-  
 }
 .fa-chart-line {
   display: flex;
@@ -317,7 +312,7 @@ aside {
   margin: 10px 10px 10px 10px;
   border-radius: 10px;
   height: 30%;
-  background-color:none;
+  background-color: none;
 }
 .bleufonce {
   color: #0065fc;
@@ -356,12 +351,13 @@ aside {
   height: 60%;
   width: 100%;
   display: flex;
- flex-direction: column;}
+  flex-direction: column;
+}
 .acti_c2_l2 {
-	border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
   height: 40%;
   width: 100%;
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 .acti_c3 {
@@ -380,12 +376,12 @@ aside {
   height: auto;
 }
 .acti_c4_l1 {
-	border-radius: 10px 10px 10px 10px;;
+  border-radius: 10px 10px 10px 10px;
   height: 50%;
   width: 100%;
 }
 .acti_c4_l2 {
-	border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
   height: 50%;
   width: 100%;
 }
@@ -426,81 +422,76 @@ footer {
   border-radius: 10px 10px 0 0;
 }
 .hotel2 {
-	display: flex;
+  display: flex;
   flex-direction: column;
 }
-.populaires img
-{
-	margin: 3px;
-	width: 50%;
-	height: auto;
-	object-fit: cover;
-	border-radius: 10px 0 0 10px;
-	margin:3px;
+.populaires img {
+  margin: 3px;
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px 0 0 10px;
+  margin: 3px;
 }
-.etoiles
-{
-	display:flex;
-	flex-direction: row;
+.etoiles {
+  display: flex;
+  flex-direction: row;
 }
-article h1 ,article p, .etoiles , article h2
-{
-	padding-left: 10px;
+article h1,
+article p,
+.etoiles,
+article h2 {
+  padding-left: 10px;
 }
-.populaires h1 ,.populaires p ,.populaires .etoiles , .populaires h2
-{
-	padding-left: 10px;
+.populaires h1,
+.populaires p,
+.populaires .etoiles,
+.populaires h2 {
+  padding-left: 10px;
 }
-.acti_c1 img ,.acti_c3 img
-{
-	margin: 3px;
-	width: auto;
-	height: 90%;
-	object-fit: cover;
-	border-radius: 10px 10px 0 0;
-	
+.acti_c1 img,
+.acti_c3 img {
+  margin: 3px;
+  width: auto;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
 }
-.acti_c2_l1 img
-{
-	margin: 3px;
-	width: 95%;
-	height: auto;
-	max-height: 90%;
-	object-fit: cover;
-	border-radius: 10px 10px 0 0;
+.acti_c2_l1 img {
+  margin: 3px;
+  width: 95%;
+  height: auto;
+  max-height: 90%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
 }
-.acti_c2_l2 img
-{
-	margin: 3px;
-	width: 95%;
-	height: auto;
-	max-height: 90%;
-	object-fit: cover;
-	border-radius: 10px 10px 0 0;
+.acti_c2_l2 img {
+  margin: 3px;
+  width: 95%;
+  height: auto;
+  max-height: 90%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+.acti_c4_l1 img {
+  margin: 3px;
+  width: 95%;
+  height: auto;
+  min-height: 70%;
+  max-height: 80%;
 
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
 }
-.acti_c4_l1 img
-{
-	margin: 3px;
-	width: 95%;
-	height: auto;
-	min-height: 70%;
-	max-height: 80%;
-	
-	object-fit: cover;
-	border-radius: 10px 10px 0 0;
+.acti_c4_l2 img {
+  margin: 3px;
+  width: 95%;
+  min-height: 70;
+  max-height: 80%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
 }
-.acti_c4_l2 img
-{
-	margin: 3px;
-	width: 95%;
-	min-height: 70;
-	max-height: 80%;
-	object-fit: cover;
-	border-radius: 10px 10px 0 0;
-
-}
-.activites p ,.activites h1
-{
-	padding-left: 10px;
+.activites p,
+.activites h1 {
+  padding-left: 10px;
 }
