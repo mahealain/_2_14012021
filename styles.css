@@ -280,6 +280,9 @@ article {
   display: flex;
   flex-direction: column;
 }
+.hotel:hover {
+  box-shadow: 3px 3px 3px #0065fc;
+}
 aside {
   width: 24%;
   background-color: #f2f2f2;
@@ -322,6 +325,9 @@ aside {
   border-radius: 10px;
   height: 30%;
   background-color: #ffffff;
+}
+.populaires:hover {
+  box-shadow: 3px 3px 3px #0065fc;
 }
 .bleufonce {
   color: #0065fc;
@@ -393,6 +399,14 @@ aside {
   border-radius: 10px 10px 10px 10px;
   height: 50%;
   width: 100%;
+}
+.acti_c1:hover,
+.acti_c2_l1:hover,
+.acti_c2_l2:hover,
+.acti_c3:hover,
+.acti_c4_l1:hover,
+.acti_c4_l2:hover {
+  box-shadow: 3px 3px 3px #0065fc;
 }
 footer {
   margin: 20px 0 0 0;
