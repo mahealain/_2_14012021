@@ -104,8 +104,15 @@ block_recherche {
   height: auto;
   width: auto;
 }
-
-.formulairecherche .place_logo {
+.formulairecherche {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 0;
+  margin: 10px 0;
+  border-radius: 1em 1em 1em 1em;
+}
+.place_logo {
   background-color: #f2f2f2;
   padding: 1em 1.25em;
   border-radius: 1em 0 0 1em;
