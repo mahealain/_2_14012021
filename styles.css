@@ -17,6 +17,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+il:hover p {
+  color: #0065fc;
+}
 il:hover {
   border-top: solid 3px blue;
   width: 33%;
@@ -78,6 +81,10 @@ nav {
 
   margin: 0;
   padding: 0;
+}
+
+.boutonbar1 {
+  color: #0065fc;
 }
 
 #haut_header {
