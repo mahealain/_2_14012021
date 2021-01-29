@@ -17,15 +17,25 @@ ul {
   margin: 0;
   padding: 0;
 }
-il:hover p {
+.boutonbar1,
+.boutonbar:hover p {
   color: #0065fc;
 }
-il:hover {
+
+.boutonbar:hover {
+  border-top: solid 3px blue;
+  width: 33%;
+  text-align: center;
+  color: #0065fc;
+}
+.boutonbar1:hover {
   border-top: solid 3px blue;
   width: 33%;
   text-align: center;
 }
-il {
+
+.boutonbar1,
+.boutonbar {
   flex: 1;
   display: block;
   width: 33%;
@@ -81,10 +91,6 @@ nav {
 
   margin: 0;
   padding: 0;
-}
-
-.boutonbar1 {
-  color: #0065fc;
 }
 
 #haut_header {
