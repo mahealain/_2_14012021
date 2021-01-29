@@ -127,7 +127,7 @@ block_recherche {
   font-size: 1em;
   font-weight: bold;
 }
-.formilleu ::placeholder {
+.formilleu :placeholder {
   font-size: 1em;
 }
 .boutonrecherche {
@@ -168,7 +168,7 @@ block_recherche {
   }
 }
 
-#tfiltres /*debut bouton filtres*/ {
+.tfiltres /*debut bouton filtres*/ {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -189,6 +189,13 @@ block_recherche {
   border-radius: 50px;
   height: 50x;
   margin: 0 1em 0 1em;
+}
+.fbouton:hover {
+  box-shadow: 5px 5px 2px #f2f2f2;
+}
+.filtres:hover {
+  box-shadow: 5px 2px 7px #f2f2f2;
+  margin: 3px 3px;
 }
 .pfiltre {
   text-align: center;
