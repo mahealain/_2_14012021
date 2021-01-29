@@ -232,6 +232,7 @@ block_recherche {
   margin: auto;
   width: 50%;
   height: 50%;
+  color: #0065fc;
 }
 #nombre_logement p {
   font-size: 0.8em;
