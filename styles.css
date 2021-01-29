@@ -189,6 +189,7 @@ block_recherche {
   border-radius: 50px;
   height: 50x;
   margin: 0 1em 0 1em;
+  cursor: pointer;
 }
 .fbouton:hover {
   box-shadow: 5px 5px 2px #f2f2f2;
