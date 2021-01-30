@@ -155,6 +155,7 @@ nav {
   border-radius: 0 1em 1em 0;
   font-size: 1em;
   cursor: pointer;
+  border:0;
 }
 
 .formfin {
