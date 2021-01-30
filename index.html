@@ -21,98 +21,99 @@
 
 
 <body>
-    <div id="block_page">
-        <header>
-            <div id="haut_header">
-                <div id="bloklogo">
-                    <img src="images/logo/Reservia@3x.png" class="logo" alt="image caligraphique de la societe Reservia"
-                        title="marque reservia" />
-                </div>
-                <div id="headerhd">
-                    <nav class="barnav">
-                        <div class=pournav>
-                            <a class="boutonbar" href="#herbergement">
-                                <p>Hébergements</p>
-                            </a>
-                            <a class="boutonbar" href="#activites">
-                                <p>Activités</p>
-                            </a>
-                            <a class="boutonbar1" href="#">
-                                <p>S'inscrire</p>
-                            </a>
-                        </div>
 
-                    </nav>
-                </div>
+    <header>
+        <div id="haut_header">
+            <div id="bloklogo">
+                <img src="images/logo/Reservia@3x.png" class="logo" alt="image caligraphique de la societe Reservia"
+                    title="marque reservia" />
             </div>
-            <div id="bas_header">
-                <div id="slogan">
-                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                    <p>En plein centre ville ou en pleine nature</p>
-
-
-                </div>
-                <div class="block_recherche">
-
-                    <form class="formulairecherche" method="post" action="#.php">
-                        <span class="place_logo">
-                            <i class="fas fa-map-marker-alt formicone"></i>
-                        </span>
-                        <input class="formilleu" type="text" name="recherche" id="recherche"
-                            placeholder="Marseille,France" />
-                        <button class="boutonrecherche">
-                            <span class="formfin">Rechercher</span>
-                            <span class=disparetion><i class="formsous fas fa-search"></i></span>
-
-                        </button>
-                    </form>
-                </div>
-
-                <div class="tfiltres">
-                    <!--debut bouton filtres-->
-                    <p>filtres</p>
-                    <div class="fbouton">
-                        <div class="filtres"><i class="fas fa-money-bill-wave"></i></div>
-                        <div class=pfiltre>
-                            <p>Économique</p>
-                        </div>
-                    </div>
-                    <div class="fbouton">
-                        <div class="filtres"><i class="fas fa-child"></i></div>
-                        <div class=pfiltre>
-                            <p>Familial</p>
-                        </div>
-                    </div>
-                    <div class="fbouton">
-                        <div class="filtres"><i class="fas fa-heart"></i></div>
-                        <div class=pfiltre>
-                            <p>Romantique</p>
-                        </div>
-                    </div>
-                    <div class="fbouton">
-                        <div class="filtres"><i class="fas fa-dog"></i></div>
-                        <div class=pfiltre>
-                            <p>Animaux autorisé</p>
-                        </div>
-                    </div>
-                </div>
-                <!--fin bouton filtres-->
-
-
-
-                <div id="nombre_logement">
-                    <div><i class="fas fa-info "></i></div>
-                    <div>
-                        <p>plus de 500 logements sont disponibles dans cette ville</p>
+            <div id="headerhd">
+                <nav class="barnav">
+                    <div class=pournav>
+                        <a class="boutonbar" href="#herbergement">
+                            <p>Hébergements</p>
+                        </a>
+                        <a class="boutonbar" href="#activites">
+                            <p>Activités</p>
+                        </a>
+                        <a class="boutonbar1" href="#">
+                            <p>S'inscrire</p>
+                        </a>
                     </div>
 
-                </div>
+                </nav>
+            </div>
+        </div>
+        <div id="bas_header">
+            <div id="slogan">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+
+
+            </div>
+            <div class="block_recherche">
+
+                <form class="formulairecherche" method="post" action="#.php">
+                    <span class="place_logo">
+                        <i class="fas fa-map-marker-alt formicone"></i>
+                    </span>
+                    <input class="formilleu" type="text" name="recherche" id="recherche"
+                        placeholder="Marseille,France" />
+                    <button class="boutonrecherche">
+                        <span class="formfin">Rechercher</span>
+                        <span class=disparetion><i class="formsous fas fa-search"></i></span>
+
+                    </button>
+                </form>
             </div>
 
+            <div class="tfiltres">
+                <!--debut bouton filtres-->
+                <p>filtres</p>
+                <div class="fbouton">
+                    <div class="filtres"><i class="fas fa-money-bill-wave"></i></div>
+                    <div class=pfiltre>
+                        <p>Économique</p>
+                    </div>
+                </div>
+                <div class="fbouton">
+                    <div class="filtres"><i class="fas fa-child"></i></div>
+                    <div class=pfiltre>
+                        <p>Familial</p>
+                    </div>
+                </div>
+                <div class="fbouton">
+                    <div class="filtres"><i class="fas fa-heart"></i></div>
+                    <div class=pfiltre>
+                        <p>Romantique</p>
+                    </div>
+                </div>
+                <div class="fbouton">
+                    <div class="filtres"><i class="fas fa-dog"></i></div>
+                    <div class=pfiltre>
+                        <p>Animaux autorisé</p>
+                    </div>
+                </div>
+            </div>
+            <!--fin bouton filtres-->
 
-        </header>
 
-        <main class="hebergement">
+
+            <div id="nombre_logement">
+                <div><i class="fas fa-info "></i></div>
+                <div>
+                    <p>plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </header>
+
+    <main>
+        <div class="hebergement">
             <section>
 
                 <h2>Hébergements à Marseille</h2>
@@ -293,7 +294,7 @@
                     </article>
                 </a>
             </aside>
-        </main>
+        </div>
 
 
 
@@ -344,36 +345,36 @@
             </div>
         </section>
 
-
-        <footer>
-            <section id="a_propos">
-                <h2>A propos</h2>
-                <a href="#">Fonctionnement du site</a>
-                <a href="#">Conditions générales de vente</a>
-                <a href="#">Données et confidentialités</a>
-            </section>
-
-
-
-            <section id="herber_footer">
-                <h2>Nos hébergements</h2>
-                <a href="#">Charte qualité</a>
-                <a href="#">Soumettre votre hotel</a>
-
-            </section>
-            <section id="assistance">
-                <h2>Assitance</h2>
-                <a href="#">Centre d'aide</a>
-                <a href="#">Nous contacter</a>
-
-            </section>
-
-        </footer>
+    </main>
+    <footer>
+        <section id="a_propos">
+            <h2>A propos</h2>
+            <a href="#">Fonctionnement du site</a>
+            <a href="#">Conditions générales de vente</a>
+            <a href="#">Données et confidentialités</a>
+        </section>
 
 
 
+        <section id="herber_footer">
+            <h2>Nos hébergements</h2>
+            <a href="#">Charte qualité</a>
+            <a href="#">Soumettre votre hotel</a>
 
-    </div>
+        </section>
+        <section id="assistance">
+            <h2>Assitance</h2>
+            <a href="#">Centre d'aide</a>
+            <a href="#">Nous contacter</a>
+
+        </section>
+
+    </footer>
+
+
+
+
+
 
 </body>
 
