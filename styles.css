@@ -129,7 +129,6 @@ block_recherche {
   padding: 1em 1.25em;
   border-radius: 1em 0 0 1em;
   text-align: center;
-  border-bottom: #f2f2f2 2px solid;
 }
 .formicone {
   margin-left: 0.1em;
@@ -151,7 +150,7 @@ block_recherche {
   background-color: #0065fc;
 
   font-weight: bold;
-  border-top: #0065fc 15px solid;
+
   border-radius: 0 1em 1em 0;
   font-size: 1em;
   cursor: pointer;
