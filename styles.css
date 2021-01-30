@@ -112,7 +112,8 @@ nav {
 }
 
 /*debut du bloc de recherche*/
-block_recherche {
+.block_recherche {
+  display: flex;
   height: auto;
   width: auto;
 }
@@ -129,7 +130,6 @@ block_recherche {
   padding: 1em 1.25em;
   border-radius: 1em 0 0 1em;
   text-align: center;
-  border-bottom: #f2f2f2 2px solid;
 }
 .formicone {
   margin-left: 0.1em;
@@ -151,7 +151,7 @@ block_recherche {
   background-color: #0065fc;
 
   font-weight: bold;
-  border-top: #0065fc 15px solid;
+
   border-radius: 0 1em 1em 0;
   font-size: 1em;
   cursor: pointer;
@@ -159,30 +159,6 @@ block_recherche {
 
 .formfin {
   margin: auto;
-}
-
-@media screen and (max-width: 999px) {
-  .formulairecherche {
-    display: flex;
-    width: 100%;
-  }
-  .formilleu {
-    flex: 1;
-  }
-  formfin {
-    display: none;
-  }
-  .formsous {
-    display: block;
-  }
-}
-@media screen and (min-width: 1000px) {
-  .formfin {
-    display: block;
-  }
-  .formsous {
-    display: none;
-  }
 }
 
 .tfiltres /*debut bouton filtres*/ {
@@ -547,3 +523,28 @@ section h2 {
 .activites h1 {
   padding-left: 10px;
 }
+
+@media all and (max-width: 480px) {
+  .formulairecherche {
+    display: flex;
+  }
+  .formilleu {
+    flex: 1;
+  }
+  .formfin {
+    display: none;
+  }
+  .formsous {
+    display: block;
+  }
+}
+@media all and (min-width: 481px) {
+  .formfin {
+    display: block;
+  }
+
+  .disparetion {
+    text: none;
+    display: none;
+  }
+
