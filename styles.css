@@ -335,6 +335,7 @@ aside {
   display: flex;
   flex-direction: column;
   width: 100%;
+  background-color: white;
 }
 .tout_acti {
   display: flex;
