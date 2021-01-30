@@ -262,13 +262,13 @@ block_recherche {
 .en_gras {
   font-weight: bold;
 }
-#herbergement {
+.hebergement {
   display: flex;
   flex-direction: row;
   height: auto;
   width: 100%;
 }
-article {
+section {
   width: 73%;
   background-color: #f2f2f2;
   margin: 10px 10px 10px 0;
@@ -491,10 +491,10 @@ footer {
   display: flex;
   flex-direction: row;
 }
-article h1,
-article p,
+section h1,
+section p,
 .etoiles,
-article h2 {
+section h2 {
   padding-left: 10px;
 }
 .populaires h1,
