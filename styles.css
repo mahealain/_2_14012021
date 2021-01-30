@@ -537,6 +537,16 @@ section h2 {
   .formsous {
     display: block;
   }
+  .pournav{
+   display: block;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 200%;
+  margin: 0;
+  padding: 0;
+}
 }
 @media all and (min-width: 481px) {
   .formfin {
