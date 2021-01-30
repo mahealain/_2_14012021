@@ -331,7 +331,7 @@ aside {
   color: #f2f2f2;
 }
 
-.activites {
+#activites {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -519,8 +519,8 @@ section h2 {
   object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
-.activites p,
-.activites h1 {
+#activites p,
+#activites h1 {
   padding-left: 10px;
 }
 
