@@ -237,7 +237,7 @@ nav {
 .en_gras {
   font-weight: bold;
 }
-.hebergement {
+#touthebergement {
   display: flex;
   flex-direction: row;
   height: auto;
