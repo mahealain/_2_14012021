@@ -51,6 +51,7 @@ a {
   border-right: 0;
   border-bottom: 0;
   border-top: 3px solid #0065fc; /*pour quand j'ai active en mode telephone pour efface les contour*/
+  background-color: white;
 }
 
 .boutonbar1,
