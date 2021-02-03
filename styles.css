@@ -16,29 +16,39 @@ a {
   margin: 0;
   padding: 0;
 }
-.headerhg{
+.headerhg {
   display: flex;
   flex-direction: row;
   flex: 50%;
-
+  flex-direction: start;
 }
-.inscrirephone
-{
-  flex:49;
-  border:0;
+.inscrirephone {
+  flex: 1;
+  border: 0;
   background-color: white;
-  color:#0065fc;
-  width: 50%;
-  text-align: start;
+  color: #0065fc;
 }
 .inscrirephone:hover {
   background-color: white;
-  border-top: solid 3px #0065fc;
-  width: 200%;
+  width: 100%;
   text-align: end;
-  border:2px 0 0 0;
+  border: 2px 0 0 0;
+  color: #0065fc;
 }
-.inscrirephone,
+.boudebut {
+  width: 100%;
+  height: 100%;
+  text-align: end;
+  border: 0;
+  background-color: white;
+}
+.boudebut:hover {
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-top: 3px solid #0065fc;
+}
+
 .boutonbar1,
 .boutonbar:hover p {
   color: #0065fc;
@@ -58,7 +68,6 @@ a {
 
 .boutonbar1,
 .boutonbar {
-  
   display: block;
   width: 33%;
   text-align: center;
@@ -68,7 +77,6 @@ a {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 0.95em;
 } /*demande de la police Raleway en priorite*/
-
 
 .logo {
   height: 40px;
@@ -80,8 +88,7 @@ a {
 }
 #bloklogo {
   display: flex;
-  flex:49;
-  width: 70%;
+  flex: 1;
   margin: 0;
   padding: 0;
 }
@@ -100,7 +107,6 @@ nav {
   padding: 0;
   height: 100%;
   flex: 33;
-
 }
 .barnav {
   display: flex;
@@ -176,12 +182,12 @@ nav {
   border-radius: 0 1em 1em 0;
   font-size: 1em;
   cursor: pointer;
-  border:0;
+  border: 0;
 }
 
 .formfin {
   margin: auto;
-  color:white;
+  color: white;
 }
 
 .tfiltres /*debut bouton filtres*/ {
@@ -267,12 +273,11 @@ nav {
   margin: 10px 0 10px 0;
   justify-content: space-between;
 }
-.encore
-{
+.encore {
   margin-top: 0;
 }
-.encore p{
-  margin-top:0 ;
+.encore p {
+  margin-top: 0;
   margin-left: 1em;
 }
 
@@ -283,7 +288,6 @@ nav {
   height: auto;
   display: flex;
   flex-direction: column;
- 
 }
 .tout_her {
   display: flex;
@@ -315,17 +319,11 @@ nav {
 aside {
   width: 24%;
   background-color: #f2f2f2;
-  border-radius:20px;
+  border-radius: 20px;
   margin: 0 0 0 0;
   display: flex;
   flex-direction: column;
-  
 }
-
- 
-  
- 
- 
 
 .populairet {
   display: flex;
@@ -361,31 +359,24 @@ aside {
   border-radius: 10px;
   height: 30%;
   background-color: #ffffff;
-  
 }
-.poputexetoi{
+.poputexetoi {
   display: flex;
   flex-direction: column;
   margin: 10px 10px 10px 10px;
   border-radius: 10px;
   height: 90%;
   width: 90%;
-
 }
-.poputexetoi
-{
-  flex:1;
-
+.poputexetoi {
+  flex: 1;
 }
-.etoiles2
-{
-  flex:1;
-  display:flex;
+.etoiles2 {
+  flex: 1;
+  display: flex;
   align-items: flex-end;
   padding-left: 10px;
 }
-
-
 
 .populaires:hover {
   box-shadow: 3px 3px 3px #0065fc;
@@ -529,15 +520,11 @@ footer {
   margin: 3px;
 }
 
-
-
 .etoiles {
   display: flex;
   flex-direction: row;
   padding-bottom: 1px;
   padding-left: 10px;
-  
- 
 }
 section h1,
 section p,
@@ -609,16 +596,16 @@ section h2 {
   .formsous {
     display: block;
   }
-  .pournav{
-   display: block;
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  height: 100%;
-  width: 200%;
-  margin: 0;
-  padding: 0;
-}
+  .pournav {
+    display: block;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 200%;
+    margin: 0;
+    padding: 0;
+  }
 }
 @media all and (min-width: 481px) {
   .formfin {
@@ -629,4 +616,7 @@ section h2 {
     text: none;
     display: none;
   }
-
+  .boudebut {
+    display: none;
+  }
+}
