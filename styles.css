@@ -16,19 +16,42 @@ a {
   margin: 0;
   padding: 0;
 }
+.headerhg{
+  display: flex;
+  flex-direction: row;
+  flex: 50%;
+
+}
+.inscrirephone
+{
+  flex:49;
+  border:0;
+  background-color: white;
+  color:#0065fc;
+  width: 50%;
+  text-align: start;
+}
+.inscrirephone:hover {
+  background-color: white;
+  border-top: solid 3px #0065fc;
+  width: 200%;
+  text-align: end;
+  border:2px 0 0 0;
+}
+.inscrirephone,
 .boutonbar1,
 .boutonbar:hover p {
   color: #0065fc;
 }
 
 .boutonbar:hover {
-  border-top: solid 3px blue;
+  border-top: solid 3px #0065fc;
   width: 33%;
   text-align: center;
   color: #0065fc;
 }
 .boutonbar1:hover {
-  border-top: solid 3px blue;
+  border-top: solid 3px #0065fc;
   width: 33%;
   text-align: center;
 }
@@ -46,9 +69,7 @@ a {
   font-size: 0.95em;
 } /*demande de la police Raleway en priorite*/
 
-:hover.blocknav {
-  background-color: #deebff;
-}
+
 .logo {
   height: 40px;
 }
@@ -59,6 +80,7 @@ a {
 }
 #bloklogo {
   display: flex;
+  flex:49;
   width: 70%;
   margin: 0;
   padding: 0;
