@@ -43,10 +43,16 @@ a {
   background-color: white;
 }
 .boudebut:hover {
-  border-left: white;
-  border-right: white;
-  border-bottom: white;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
   border-top: 3px solid #0065fc;
+}
+.boudebut:active {
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-top: 3px solid #0065fc; /*pour quand j'ai active en mode telephone pour efface les contour*/
 }
 
 .boutonbar1,
