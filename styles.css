@@ -399,17 +399,19 @@ aside {
   width: 100%;
   background-color: white;
 }
+
 .tout_acti {
   display: flex;
   flex-direction: row;
   width: 100%;
+  height: 600px;
 }
 .acti_c1 {
   display: flex;
   flex-direction: column;
-  width: 23%;
+  width: 24%;
   margin: 10px 10px 10px 10px;
-  height: auto;
+  height: 96%;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 3px 3px 3px #f2f2f2;
 }
@@ -417,13 +419,13 @@ aside {
   margin: 10px 10px 10px 10px;
   display: flex;
   flex-direction: column;
-  width: 23%;
-  height: auto;
+  width: 24%;
+  height: 96%;
 }
 .acti_c2_l1 {
   border-radius: 10px 10px 10px 10px;
   margin: 0 0 10px 0;
-  height: 60%;
+  height: 58%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -432,7 +434,7 @@ aside {
 .acti_c2_l2 {
   border-radius: 10px 10px 10px 10px;
   margin: 10px 0 0 0;
-  height: 40%;
+  height: 38%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -441,9 +443,9 @@ aside {
 .acti_c3 {
   display: flex;
   flex-direction: column;
-  width: 23%;
+  width: 24%;
   border-radius: 10px 10px 10px 10px;
-  height: auto;
+  height: 96%;
   margin: 10px 10px 10px 10px;
   box-shadow: 3px 3px 3px #f2f2f2;
 }
@@ -451,13 +453,13 @@ aside {
   margin: 10px 10px 10px 10px;
   display: flex;
   flex-direction: column;
-  width: 23%;
-  height: auto;
+  width: 24%;
+  height: 96%;
 }
 .acti_c4_l1 {
   border-radius: 10px 10px 10px 10px;
   margin: 0 0 10px 0;
-  height: 50%;
+  height: 46%;
   width: 100%;
   box-shadow: 3px 3px 3px #f2f2f2;
 }
@@ -545,23 +547,23 @@ section h2 {
 .acti_c3 img {
   margin: 3px;
   width: auto;
-  height: 90%;
+  height: 85%;
   object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
 .acti_c2_l1 img {
   margin: 3px;
-  width: 95%;
-  height: auto;
-  max-height: 90%;
+  width: auto%;
+  height: 80%;
+
   object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
 .acti_c2_l2 img {
   margin: 3px;
-  width: 95%;
-  height: auto;
-  max-height: 90%;
+  width: auto;
+  height: 60%;
+
   object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
@@ -569,8 +571,7 @@ section h2 {
   margin: 3px;
   width: 95%;
   height: auto;
-  min-height: 70%;
-  max-height: 80%;
+  min-height: 65%;
 
   object-fit: cover;
   border-radius: 10px 10px 0 0;
@@ -578,8 +579,8 @@ section h2 {
 .acti_c4_l2 img {
   margin: 3px;
   width: 95%;
-  min-height: 70%;
-  max-height: 80%;
+  min-height: 75%;
+
   object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
