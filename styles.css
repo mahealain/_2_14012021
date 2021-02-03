@@ -339,7 +339,32 @@ aside {
   border-radius: 10px;
   height: 30%;
   background-color: #ffffff;
+  
 }
+.poputexetoi{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px 10px 10px;
+  border-radius: 10px;
+  height: 90%;
+  width: 90%;
+
+}
+.poputexetoi
+{
+  flex:1;
+
+}
+.etoiles2
+{
+  flex:1;
+  display:flex;
+  align-items: flex-end;
+  padding-left: 10px;
+}
+
+
+
 .populaires:hover {
   box-shadow: 3px 3px 3px #0065fc;
 }
@@ -481,19 +506,24 @@ footer {
   border-radius: 10px 0 0 10px;
   margin: 3px;
 }
+
+
+
 .etoiles {
   display: flex;
   flex-direction: row;
+  padding-bottom: 1px;
+  padding-left: 10px;
+  
+ 
 }
 section h1,
 section p,
-.etoiles,
 section h2 {
   padding-left: 10px;
 }
 .populaires h1,
 .populaires p,
-.populaires .etoiles,
 .populaires h2 {
   padding-left: 10px;
 }
