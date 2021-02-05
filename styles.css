@@ -757,4 +757,10 @@ font-size:1.25em;
   {
     display:none;
   }
+.filtresmedia
+{
+  display: flex;
+  flex-direction: row;
+
+}
 }
