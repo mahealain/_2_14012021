@@ -742,6 +742,20 @@ font-size:1.25em;
 {
   font-size: 1.8em;
 }
+.fa-info {
+  border: 3px solid #f2f2f2;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 50%;
+  margin: auto;
+  width: 70%;
+  height: 40%;
+  color: #0065fc;
+  padding:auto;
+}
+
+
 
 
 
