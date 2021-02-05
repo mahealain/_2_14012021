@@ -228,6 +228,13 @@ nav {
   text-align: center;
   margin: 0 1em 0 1em;
 }
+.fbouton p 
+{
+  font-weight: bold;
+
+  text-align: center;
+  font-size:1.25em;
+}
 
 .fa-money-bill-wave /*pour maitre en bleu les icones de https://fontawesome.com/ */
 {
@@ -710,8 +717,11 @@ font-size:1.25em;
 .fbouton p 
 {
   font-weight: bold;
-  padding:1em 2em;
+
+  text-align: center;
+  font-size:1.25em;
 }
+
 .tfiltres /*debut bouton filtres*/ {
   display: flex;
   flex-direction: column;
@@ -728,7 +738,10 @@ font-size:1.25em;
   margin-left: 1em;
 }
 
-
+#nombre_logement
+{
+  font-size: 1.8em;
+}
 
 
 
@@ -763,4 +776,5 @@ font-size:1.25em;
   flex-direction: row;
 
 }
+
 }
