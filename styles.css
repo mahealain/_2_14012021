@@ -693,7 +693,6 @@ font-size:1.25em;
 .tfiltres /*debut bouton filtres*/ {
   display: flex;
   flex-direction: column;
-  padding: 1.25;
   margin-left: 1em;
 }
 .fbouton {
@@ -703,7 +702,7 @@ font-size:1.25em;
   white-space: normal;
   cursor: pointer;
   margin: 2px;
-  padding:0 1em 0 1em;
+  padding:0;
 
   
 }
