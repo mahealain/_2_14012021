@@ -16,6 +16,7 @@ a {
   margin: 0;
   padding: 0;
 }
+ 
 .headerhg {
   display: flex;
   flex-direction: row;
@@ -41,7 +42,6 @@ a {
   text-align: end;
   border: 0;
   background-color: white;
-  color:#0065fc;
 }
 
 .boudebut:link,
@@ -51,7 +51,7 @@ a {
   border-left: 0;
   border-right: 0;
   border-bottom: 0;
-  border-top: 3px solid #0065fc;
+  border-top: 3px solid #0065fc; /*pour quand j'ai active en mode telephone pour efface les contour*/
   background-color: white;
 }
 
@@ -127,9 +127,9 @@ nav {
   width: 100%;
   margin: 0;
   padding: 0;
-  display: flex;
-  width: 100%;
+
 }
+
 
 #bas_header {
   display: flex;
@@ -589,7 +589,6 @@ section h2 {
 }
 
 @media all and (max-width: 480px) {
-
   .formulairecherche {
     display: flex;
   }
@@ -602,71 +601,53 @@ section h2 {
   .formsous {
     display: block;
   }
-  .pournav {
-    display: block;
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  .boutonbar
-  {
-    flex:1;
-    margin:0;
-    padding:0;
-    border-bottom:solid 3px#f2f2f2;
-
-  }
-  .boutonbar:hover {
-  border-bottom: solid 3px #0065fc;
-  width: 50%;
-  text-align: center;
-  color: #0065fc;
-  border-left: 0;
-  border-right: 0;
-  border-top:0;
-  }
 
   .boutonbar1 {
     display: none;
   }
-    #haut_header
-  {
-    display:flex;
-    flex-direction: column;
-   width: 100%;
+  #haut_header
+   {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
-  display: flex;
-  width: 100%;
-  }
-  .headerhg
-  {
-    display:flex;
-    width: 98%;
-    flex-direction: row;
-  }
-  #bloklogo
-  {
-    width: 48%;
-  }
-  .inscrirephone
-  {
-    width: 48%;
-  }
-  * {
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-size: 1.05em;
-} /*demande de la police Raleway en priorite*/
+}
+#bloklogo img {
+margin-left: 6px;
+}
 .boudebut
 {
+  margin-right: 6px;
   font-weight: bold;
+  color:#0065fc;
+  font-size: 1.5em;
 }
 
+
+
+.boutonbar:hover {
+  border-bottom: solid 3px #0065fc;
+  border-top:0;
+  width: 50%;
+  text-align: center;
+  color: #0065fc;
+}
+.boutonbar:hover p {
+  color: #0065fc;
 }
 
+.boutonbar {
+  display: block;
+  width: 50%;
+  text-align: center;
+}
+
+
+
+
+
+
+}
 @media all and (min-width: 481px) {
   .formfin {
     display: block;
@@ -678,5 +659,4 @@ section h2 {
   .boudebut {
     display: none;
   }
-
 }
