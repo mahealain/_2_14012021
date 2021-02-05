@@ -173,7 +173,7 @@ nav {
   border-bottom: #f2f2f2 1px solid;
   padding: 1em 1.25em;
   box-sizing: border-box;
-  width: 12em;
+  width: 20em;
   font-size: 1em;
   font-weight: bold;
 }
@@ -589,9 +589,26 @@ section h2 {
 }
 
 @media all and (max-width: 480px) {
+ 
+ 
+  .block_recherche {
+  display: flex;
+  height: auto;
+  justify-content: center;
+
+}
+
   .formulairecherche {
-    display: flex;
-  }
+  display: flex;
+  flex-direction: row;
+  border-radius: 1em 1em 1em 1em;
+}
+
+
+
+
+
+
   .formilleu {
     flex: 1;
   }
@@ -649,11 +666,30 @@ font-size:1.8em;
 .slogan p {
 text-align: center;
 font-size:1.25em;
-
-
 }
-
-
+.place_logo {
+  background-color: #f2f2f2;
+  padding: 1em 1.25em;
+  border-radius: 1em 0 0 1em;
+  text-align: center;
+}
+.fa-map-marker-alt
+{
+  font-size: 2em;
+}
+.boutonrecherche {
+  background-color: #0065fc;
+  font-weight: bold;
+  border-radius: 1em 1em 1em 1em;
+  padding:1.25em 1.25em;
+  font-size: 1em;
+  cursor: pointer;
+  border: 0;
+}
+.fa-search
+{
+  color:white; /*pour blanchir icone de recherche*/
+}
 
 
 
