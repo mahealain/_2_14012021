@@ -690,11 +690,7 @@ font-size:1.25em;
 {
   color:white; /*pour blanchir icone de recherche*/
 }
-.tfiltres /*debut bouton filtres*/ {
-  display: flex;
-  flex-direction: column;
-  margin-left: 1em;
-}
+
 .fbouton {
   border: 3px solid #f2f2f2;
   border-radius: 50px;
@@ -703,6 +699,7 @@ font-size:1.25em;
   cursor: pointer;
   margin: 2px;
   padding:0;
+  max-width:100%;
 
   
 }
@@ -714,6 +711,21 @@ font-size:1.25em;
 {
   font-weight: bold;
   padding:1em 2em;
+}
+.tfiltres /*debut bouton filtres*/ {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 1em;
+}
+.filtresmedia
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: 1em;
 }
 
 
