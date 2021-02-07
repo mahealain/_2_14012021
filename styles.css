@@ -102,7 +102,7 @@ a {
 #bloklogo {
   display: flex;
   flex: 1;
-  padding-left: 1em;
+  padding-left: 2em;
   padding-bottom: 2em;
 }
 
@@ -156,7 +156,7 @@ nav {
   display: flex;
   height: auto;
   width: auto;
-  padding-left: 1em;
+  padding-left: 2em;
 }
 .formulairecherche {
   display: flex;
@@ -208,7 +208,7 @@ nav {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding-left: 1em;
+  padding-left: 2em;
 }
 
 .filtres {
@@ -360,7 +360,6 @@ aside {
 .populaireh {
   display: flex;
   display: inline-block;
-
   width: 65%;
   padding-left: 1em;
 }
