@@ -225,6 +225,8 @@ nav {
 .pfiltre {
   text-align: center;
   margin: 0 1em 0 1em;
+  display: flex;
+  text-align: center;
 }
 .fbouton p {
   font-weight: bold;
@@ -687,10 +689,7 @@ section h2 {
     padding: 0;
     max-width: 100%;
   }
-  .pfiltre {
-    text-align: center;
-    margin: 0 1em 0 1em;
-  }
+
   .fbouton p {
     font-weight: bold;
 
@@ -706,11 +705,12 @@ section h2 {
     margin-left: 1em;
   }
   .filtresmedia {
+    text-align: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 80%;
-    margin-left: 1em;
+    margin: 0 1em 0 1em;
   }
 
   #nombre_logement {
