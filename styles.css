@@ -418,6 +418,10 @@ aside {
 .gris {
   color: #f2f2f2;
 }
+.fa-star {
+  font-size: 1em;
+  padding-bottom: 1em;
+}
 
 #activites {
   display: flex;
@@ -557,7 +561,13 @@ footer {
   font-size: 1.2em;
 }
 .hotelint {
-  height: 33%;
+  height: 32%;
+}
+.hotelint2 {
+  height: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .populaires img {
