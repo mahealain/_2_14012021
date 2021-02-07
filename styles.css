@@ -127,7 +127,7 @@ nav {
 }
 
 header {
-  padding: 0em 1em 1em 2em;
+  padding: 0em 3em 1em 3em;
 }
 
 #haut_header {
@@ -292,7 +292,7 @@ header {
   flex-direction: row;
   height: auto;
   width: 100%;
-  padding: 1em 1em 1em 1em;
+  padding: 3em 2em 2em 2em;
   justify-content: space-between;
 }
 .encore {
