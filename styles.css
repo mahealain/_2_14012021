@@ -377,17 +377,23 @@ aside {
   width: 65%;
   padding-left: 1em;
 }
+.populaireh h2 {
+  font-size: 2em;
+}
+.populaireh {
+  width: 84%;
+}
 .diagrame {
   display: flex;
   display: inline-block;
   width: 8%;
-  padding-right: 0;
+  margin-right: 0;
 }
 .fa-chart-line {
   display: flex;
   display: inline-block;
-  padding-right: 1px;
-  padding-right: 0;
+  font-size: 2em;
+  justify-content: flex-end;
 }
 
 .populaires {
@@ -832,25 +838,7 @@ section h2 {
     height: 28%;
     background-color: #ffffff;
   }
-  .populaireh h2 {
-    font-size: 2em;
-  }
-  .populaireh {
-    width: 84%;
-  }
-  .fa-chart-line {
-    display: flex;
-    display: inline-block;
-    font-size: 2em;
-    justify-content: flex-end;
-  }
 
-  .diagrame {
-    display: flex;
-    display: inline-block;
-    width: 8%;
-    margin-right: 0;
-  }
   .tout_her {
     display: flex;
     flex-direction: column;
