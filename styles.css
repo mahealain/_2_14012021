@@ -97,8 +97,7 @@ a {
 #bloklogo {
   display: flex;
   flex: 1;
-  margin: 0;
-  padding: 0;
+  padding-left: 1em;
 }
 
 #headerhd {
