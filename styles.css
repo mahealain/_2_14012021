@@ -238,16 +238,19 @@ nav {
 .fa-money-bill-wave /*pour maitre en bleu les icones de https://fontawesome.com/ */
 {
   color: #0065fc;
+  font-size: 1.2em;
 }
 .fa-child {
   color: #0065fc;
+  font-size: 1.2em;
 }
 .fa-heart {
   color: #0065fc;
+  font-size: 1.2em;
 }
 .fa-dog {
   color: #0065fc;
-  text-justify: auto;
+  font-size: 1.2em;
 } /*fin bouton filtres*/
 
 #nombre_logement {
