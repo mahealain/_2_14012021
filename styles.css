@@ -208,7 +208,7 @@ nav {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin-left: 1em;
+  padding-left: 1em;
 }
 
 .filtres {
@@ -717,7 +717,7 @@ section h2 {
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    margin-left: 1em;
+    padding-left: 1em;
   }
   .filtresmedia {
     text-align: center;
