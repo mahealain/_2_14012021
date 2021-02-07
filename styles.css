@@ -351,7 +351,7 @@ header {
 aside {
   width: 24%;
   background-color: #f2f2f2;
-  border-radius: 20px;
+  border-radius: 25px;
   margin: 0 0 0 0;
   display: flex;
   flex-direction: column;
@@ -362,6 +362,7 @@ aside {
   display: inline-block;
   border-radius: 10px 10px 0 0;
   flex-direction: row;
+  border-radius: 25px 25px 0 0;
   background-color: #f2f2f2;
 }
 .populaireh {
@@ -387,7 +388,7 @@ aside {
   display: flex;
   flex-direction: row;
   margin: 10px 10px 10px 10px;
-  border-radius: 10px;
+  border-radius: 25px;
   height: 30%;
   background-color: #ffffff;
 }
@@ -441,20 +442,20 @@ aside {
   display: flex;
   flex-direction: column;
   width: 24%;
-  margin: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
   height: 96%;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 3px 3px 3px #f2f2f2;
 }
 .acti_c2 {
-  margin: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
   display: flex;
   flex-direction: column;
   width: 24%;
   height: 96%;
 }
 .acti_c2_l1 {
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 20px 20px 20px 20px;
   margin: 0 0 10px 0;
   height: 58%;
   width: 100%;
@@ -463,7 +464,7 @@ aside {
   box-shadow: 3px 3px 3px #f2f2f2;
 }
 .acti_c2_l2 {
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 20px 20px 20px 20px;
   margin: 10px 0 0 0;
   height: 38%;
   width: 100%;
@@ -475,28 +476,28 @@ aside {
   display: flex;
   flex-direction: column;
   width: 24%;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 20px 20px 20px 20px;
   height: 96%;
   margin: 10px 10px 10px 10px;
   box-shadow: 3px 3px 3px #f2f2f2;
 }
 .acti_c4 {
-  margin: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
   display: flex;
   flex-direction: column;
   width: 24%;
   height: 96%;
 }
 .acti_c4_l1 {
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 20px 20px 20px 20px;
   margin: 0 0 10px 0;
   height: 36%;
   width: 100%;
   box-shadow: 3px 3px 3px #f2f2f2;
 }
 .acti_c4_l2 {
-  border-radius: 10px 10px 10px 10px;
-  margin: 10px 0 0 0;
+  border-radius: 20px 20px 20px 20px;
+  margin: 0 10px 0 0;
   height: 60%;
   width: 100%;
   box-shadow: 3px 3px 3px #f2f2f2;
@@ -544,7 +545,7 @@ footer {
   width: auto;
   height: 60%;
   object-fit: cover;
-  border-radius: 10px 10px 0 0;
+  border-radius: 20px 20px 0 0;
 }
 .hotel2 {
   height: 37%;
@@ -571,12 +572,11 @@ footer {
 }
 
 .populaires img {
-  margin: 3px;
+  margin: 5px;
   width: 40%;
   height: auto;
   object-fit: cover;
-  border-radius: 10px 0 0 10px;
-  margin: 3px;
+  border-radius: 20px 0 0 20px;
 }
 
 .etoiles {
@@ -598,41 +598,43 @@ section h2 {
 }
 .acti_c1 img,
 .acti_c3 img {
-  margin: 3px;
+  margin: 0;
   width: auto;
   height: 85%;
   object-fit: cover;
-  border-radius: 10px 10px 0 0;
+  border-radius: 25px 25px 0 0;
 }
 .acti_c2_l1 img {
-  margin: 3px;
+  margin: 0;
   width: auto;
   height: 80%;
+  object-fit: cover;
+  border-radius: 25px 25px 0 0;
 }
 
 .acti_c2_l2 img {
-  margin: 3px;
+  margin: 0;
   width: auto;
   height: 60%;
 
   object-fit: cover;
-  border-radius: 10px 10px 0 0;
+  border-radius: 25px 25px 0 0;
 }
 .acti_c4_l1 img {
-  margin: 3px;
-  width: 95%;
+  margin: 0;
+  width: 100%;
   height: 70%;
   min-height: 60%;
 
   object-fit: cover;
-  border-radius: 10px 10px 0 0;
+  border-radius: 25px 25px 0 0;
 }
 .acti_c4_l2 img {
-  margin: 3px;
-  width: 95%;
+  margin: 0;
+  width: 100%;
   height: 75%;
   object-fit: cover;
-  border-radius: 10px 10px 0 0;
+  border-radius: 25px 25px 0 0;
 }
 #activites p,
 #activites h1 {
@@ -789,7 +791,7 @@ section h2 {
     flex-direction: column;
     width: 95%;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 25px;
     height: 62%;
   }
   .ligneherbergement {
