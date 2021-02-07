@@ -29,6 +29,11 @@ a {
   flex: 50%;
   flex-direction: start;
 }
+.slogan h1,
+.slogan p {
+  padding-left: 0.8em;
+}
+
 .inscrirephone {
   flex: 1;
   border: 0;
