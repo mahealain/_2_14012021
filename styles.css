@@ -189,6 +189,8 @@ header {
 }
 .formilleu::placeholder {
   color: black;
+  font-size: 1.3em;
+  font-weight: bold;
 }
 
 .boutonrecherche {
