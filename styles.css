@@ -414,6 +414,7 @@ aside {
   flex-direction: column;
   width: 100%;
   background-color: white;
+  padding: 0em 3em 3em 3em;
 }
 
 .tout_acti {
@@ -495,7 +496,7 @@ aside {
   box-shadow: 3px 3px 3px #0065fc;
 }
 footer {
-  margin: 20px 0 0 0;
+  padding: 1em 0 0 0;
   background-color: #f2f2f2;
   height: auto;
   display: flex;
@@ -593,7 +594,7 @@ section h2 {
 .acti_c4_l2 img {
   margin: 3px;
   width: 95%;
-  height: 30%;
+  height: 75%;
   object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
