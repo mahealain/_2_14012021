@@ -29,10 +29,6 @@ a {
   flex: 50%;
   flex-direction: start;
 }
-.slogan h1,
-.slogan p {
-  padding-left: 0.8em;
-}
 
 .inscrirephone {
   flex: 1;
@@ -102,8 +98,6 @@ a {
 #bloklogo {
   display: flex;
   flex: 1;
-  padding-left: 2em;
-  padding-bottom: 2em;
 }
 
 #headerhd {
@@ -132,12 +126,15 @@ nav {
   padding: 0;
 }
 
+header {
+  padding: 1em 1em 1em 2em;
+}
+
 #haut_header {
   flex-direction: row;
   display: flex;
   width: 100%;
   margin: 0;
-  padding: 0;
 }
 
 #bas_header {
@@ -156,7 +153,6 @@ nav {
   display: flex;
   height: auto;
   width: auto;
-  padding-left: 2em;
 }
 .formulairecherche {
   display: flex;
@@ -208,7 +204,6 @@ nav {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding-left: 2em;
 }
 
 .filtres {
@@ -269,7 +264,6 @@ nav {
   display: flex;
   flex-direction: row;
   font-size: 0.9em;
-  margin-left: 1em;
 }
 .fa-info {
   border: 3px solid #f2f2f2;
@@ -295,7 +289,7 @@ nav {
   flex-direction: row;
   height: auto;
   width: 100%;
-  padding: 10px 10px 10px 10px;
+  padding: 1em 1em 1em 1em;
   justify-content: space-between;
 }
 .encore {
@@ -671,6 +665,7 @@ section h2 {
     text-align: center;
     font-size: 1.25em;
   }
+
   .place_logo {
     background-color: #f2f2f2;
     padding: 1em 1.25em;
@@ -711,12 +706,11 @@ section h2 {
     font-size: 1.15em;
   }
 
-  .tfiltres /*debut bouton filtres*/ {
+  .tfiltres/*debut bouton filtres*/ {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    padding-left: 1em;
   }
   .filtresmedia {
     text-align: center;
@@ -747,7 +741,7 @@ section h2 {
     width: 100%;
     flex-direction: column-reverse;
     height: 2500px;
-    padding: 10px 10px 10px 10px;
+    padding: 2em 2em 2em 2em;
   }
 
   .hebergemenent {
