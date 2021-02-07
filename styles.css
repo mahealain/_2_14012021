@@ -195,7 +195,7 @@ header {
 
 .boutonrecherche {
   background-color: #0065fc;
-
+  width: 12em;
   font-weight: bold;
 
   border-radius: 0 1em 1em 0;
@@ -750,7 +750,9 @@ section h2 {
     font-size: 1em;
     cursor: pointer;
     border: 0;
+    width: 4em;
   }
+
   .fa-search {
     color: white; /*pour blanchir icone de recherche*/
   }
