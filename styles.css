@@ -321,6 +321,11 @@ header {
   display: flex;
   flex-direction: column;
 }
+.hebergemenent h2 {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-left: 1.3em;
+}
 .tout_her {
   display: flex;
   flex-direction: row;
@@ -554,21 +559,25 @@ footer {
   margin-bottom: 0;
   align-content: space-around;
 }
-.hotel2 h2 {
+.hotel2 h3 {
   font-size: 1.4em;
   font-weight: bold;
+  padding-left: 1em;
 }
 .hotel2 p {
   font-size: 1.2em;
+  padding-left: 1em;
 }
 .hotelint {
   height: 32%;
+  padding-left: 1em;
 }
 .hotelint2 {
   height: 32%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  padding-left: 1em;
 }
 
 .populaires img {
