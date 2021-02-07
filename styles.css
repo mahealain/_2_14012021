@@ -214,6 +214,9 @@ header {
   flex-direction: row;
   width: 100%;
 }
+.tfiltres p {
+  font-weight: bolder;
+}
 
 .filtres {
   padding: 20px;
