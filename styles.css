@@ -448,6 +448,19 @@ aside {
   background-color: white;
   padding: 2em 3em 3em 3em;
 }
+#activites h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#activites h3 {
+  height: 13%;
+  font-weight: bold;
+  font-size: 1.3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1em;
+}
 
 .tout_acti {
   display: flex;
@@ -539,29 +552,33 @@ footer {
   display: flex;
   flex-direction: row;
   width: 100%;
-  line-height: 2em;
+  line-height: 2.5em;
+  padding-left: 4em;
+  padding: 3em 3em 3em 3em;
 }
 #a_propos {
-  width: 32%;
-  padding: 0 10px;
+  width: 30%;
   display: flex;
   flex-direction: column;
   height: auto;
 }
 #herber_footer {
-  width: 32%;
-  padding: 0 10px;
+  width: 30%;
   display: flex;
   flex-direction: column;
   height: auto;
 }
+footer a {
+  font-size: 1.2em;
+}
+
 #assistance {
-  width: 32%;
-  padding: 0 10px;
+  width: 39%;
   display: flex;
   flex-direction: column;
   height: auto;
 }
+
 .hotel img {
   margin: 5px;
   width: auto;
