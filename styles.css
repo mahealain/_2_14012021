@@ -214,6 +214,10 @@ header {
   flex-direction: row;
   width: 100%;
 }
+.filtresmedia {
+  display: flex;
+  flex-direction: row;
+}
 .tfiltres p {
   font-weight: bolder;
 }
@@ -236,11 +240,39 @@ header {
 }
 .fbouton:hover {
   box-shadow: 5px 5px 2px #f2f2f2;
-}
-.filtres:hover {
-  box-shadow: 5px 2px 7px #f2f2f2;
   margin: 3px 3px;
+  color: #0065fc;
+  background-color: white;
+  padding: 0.2em;
 }
+
+.fbouton:hover .filtres {
+  background-color: #0065fc;
+  font-size: 1.8em;
+  padding: 0.5;
+}
+
+.fbouton:hover .fa-money-bill-wave {
+  background-color: #0065fc;
+  color: white;
+  padding: auto;
+}
+.fbouton:hover .fa-child {
+  background-color: #0065fc;
+  color: white;
+  padding: auto;
+}
+.fbouton:hover .fa-heart {
+  background-color: #0065fc;
+  color: white;
+  padding: auto;
+}
+.fbouton:hover .fa-dog {
+  background-color: #0065fc;
+  color: white;
+  padding: auto;
+}
+
 .pfiltre {
   text-align: center;
   margin: 0 1em 0 1em;
@@ -899,9 +931,5 @@ section h2 {
   }
   .alaligne {
     display: none;
-  }
-  .filtresmedia {
-    display: flex;
-    flex-direction: row;
   }
 }
