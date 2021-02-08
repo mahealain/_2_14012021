@@ -682,7 +682,7 @@ section h2 {
 #activites h1 {
   padding-left: 10px;
 }
-
+/*media querry pour les ecran de moin de 480px................................................................................*/
 @media all and (max-width: 480px) {
   .block_recherche {
     display: flex;
@@ -885,6 +885,7 @@ section h2 {
   }
 }
 
+/*media querry pour les ecran de plus de 481px..........................................................................................*/
 @media all and (min-width: 481px) {
   .formfin {
     display: block;
