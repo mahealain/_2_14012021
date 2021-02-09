@@ -208,6 +208,20 @@ header {
   margin: auto;
   color: white;
 }
+.arrondis {
+  display: flex;
+  border: solid 3px #f2f2f2;
+  border-radius: 50%;
+  height: 1.5em;
+  width: 1.5em;
+  align-items: center;
+}
+.fbouton p {
+  font-weight: bold;
+
+  text-align: center;
+  font-size: 1.25em;
+}
 
 .tfiltres /*debut bouton filtres*/ {
   display: flex;
@@ -279,12 +293,6 @@ header {
   display: flex;
   text-align: center;
 }
-.fbouton p {
-  font-weight: bold;
-
-  text-align: center;
-  font-size: 1.25em;
-}
 
 .fa-money-bill-wave /*pour maitre en bleu les icones de https://fontawesome.com/ */
 {
@@ -311,8 +319,7 @@ header {
   padding-top: 1em;
 }
 .fa-info {
-  border: 3px solid #f2f2f2;
-  padding: 5px;
+  font-size: 0.8em;
   display: flex;
   flex-direction: row;
   border-radius: 50%;
@@ -322,10 +329,9 @@ header {
   color: #0065fc;
 }
 #nombre_logement p {
-  font-size: 1.1em;
+  font-size: 1em;
   margin: 10px;
 }
-
 .en_gras {
   font-weight: bold;
 }
@@ -839,9 +845,6 @@ section h2 {
     margin: 0 1em 0 1em;
   }
 
-  #nombre_logement {
-    font-size: 1.8em;
-  }
   .fa-info {
     border: 3px solid #f2f2f2;
     padding: 5px;
