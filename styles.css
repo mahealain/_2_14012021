@@ -760,9 +760,7 @@ section h2 {
   .formilleu {
     flex: 1;
   }
-  .formfin {
-    display: none;
-  }
+
   .formsous {
     display: block;
   }
@@ -820,15 +818,16 @@ section h2 {
   .fa-map-marker-alt {
     font-size: 2em;
   }
+
   .boutonrecherche {
     background-color: #0065fc;
+    width: 12em;
     font-weight: bold;
-    border-radius: 1em 1em 1em 1em;
-    padding: 1.25em 1.25em;
+
+    border-radius: 0 1em 1em 0;
     font-size: 1em;
     cursor: pointer;
     border: 0;
-    width: 4em;
   }
 
   .fa-search {
