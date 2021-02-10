@@ -1118,6 +1118,10 @@ section h2 {
     padding-bottom: 0.5em;
     padding-left: 3em;
   }
+  footer a {
+    font-size: 2.4em;
+  }
+
   .fa-star {
     font-size: 2.4em;
     padding-bottom: 1em;
