@@ -930,6 +930,38 @@ section h2 {
     flex-direction: row;
     background-color: #f2f2f2;
   }
+  footer {
+    padding: 0 0 0 0;
+    background-color: #f2f2f2;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 4em;
+    padding: 3em 3em 3em 3em;
+  }
+  #a_propos {
+    line-height: 2.5em;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 2.5em;
+  }
+  #herber_footer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 2.5em;
+  }
+  #assistance {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 0.5em;
+  }
 }
 
 /*media querry pour les ecran de plus de 481px..........................................................................................*/
