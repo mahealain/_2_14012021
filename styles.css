@@ -30,7 +30,7 @@ a {
 .headerhg {
   display: flex;
   flex-direction: row;
-  flex: 50%;
+  flex: 30%;
 }
 
 .inscrirephone {
@@ -81,10 +81,15 @@ a {
   text-align: center;
 }
 
-.boutonbar1,
+.boutonbar1 {
+  display: block;
+  width: 20%;
+  text-align: center;
+}
+
 .boutonbar {
   display: block;
-  width: 33%;
+  width: 40%;
   text-align: center;
 }
 
@@ -105,7 +110,7 @@ a {
 #headerhd {
   display: flex;
   flex-direction: row;
-  flex: 25%;
+  flex: 60%;
 }
 nav {
   width: auto;
