@@ -873,7 +873,6 @@ section h2 {
     width: 100%;
     flex-direction: column-reverse;
     height: auto;
-    margin: auto;
     padding: 0;
   }
 
@@ -883,14 +882,17 @@ section h2 {
     width: 100%;
     background-color: white;
     border-radius: 25px;
-    margin: auto;
   }
   .ligneherbergement {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 50%;
+    width: 95%;
+    height: 48%;
   }
+  .encore {
+    height: 3%;
+  }
+
   aside {
     width: 100%;
     height: 32%;
@@ -912,15 +914,14 @@ section h2 {
   .tout_her {
     display: flex;
     flex-direction: column;
-    width: 95%;
-    height: 1700px;
+    width: 100%;
+    height: 2000px;
   }
   .hotel {
     border-radius: 25px;
     padding: 3px 3px 3px 3px;
-    margin-top: 2em;
-    width: 100%;
-    height: 250px;
+    width: 90%;
+    height: 300px;
     background-color: white;
     display: flex;
     flex-direction: column;
