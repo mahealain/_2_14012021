@@ -741,6 +741,9 @@ section h2 {
   .alaligne {
     display: none;
   }
+  .disparetion {
+    display: none;
+  }
 
   .block_recherche {
     display: flex;
