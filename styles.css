@@ -1075,6 +1075,357 @@ section h2 {
 }
 
 @media all and (min-width: 481px) and (max-width: 1024) {
+  .block_recherche {
+    display: flex;
+    height: auto;
+    justify-content: center;
+  }
+
+  .formulairecherche {
+    display: flex;
+    flex-direction: row;
+    border-radius: 1em 1em 1em 1em;
+  }
+
+  .formilleu {
+    flex: 1;
+  }
+  .formfin {
+    display: none;
+  }
+  .formsous {
+    display: block;
+  }
+
+  .boutonbar1 {
+    display: none;
+  }
+  #haut_header {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  #bloklogo img {
+    margin-left: 6px;
+  }
+  .boudebut {
+    margin-right: 6px;
+    font-weight: bold;
+    color: #0065fc;
+    font-size: 1.5em;
+  }
+
+  .boutonbar:hover {
+    border-bottom: solid 3px #0065fc;
+    border-top: 0;
+    width: 50%;
+    text-align: center;
+    color: #0065fc;
+  }
+  .boutonbar:hover p {
+    color: #0065fc;
+  }
+
+  .boutonbar {
+    display: block;
+    width: 50%;
+    text-align: center;
+  }
+  .slogan h1 {
+    text-align: center;
+    font-size: 1.8em;
+  }
+  .slogan p {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .place_logo {
+    background-color: #f2f2f2;
+    padding: 1em 1.25em;
+    border-radius: 1em 0 0 1em;
+    text-align: center;
+  }
+  .fa-map-marker-alt {
+    font-size: 2em;
+  }
+  .boutonrecherche {
+    background-color: #0065fc;
+    font-weight: bold;
+    border-radius: 1em 1em 1em 1em;
+    padding: 1.25em 1.25em;
+    font-size: 1em;
+    cursor: pointer;
+    border: 0;
+    width: 4em;
+  }
+
+  .fa-search {
+    color: white; /*pour blanchir icone de recherche*/
+  }
+
+  .fbouton {
+    border: 3px solid #f2f2f2;
+    border-radius: 50px;
+    height: 50px;
+    white-space: normal;
+    cursor: pointer;
+    margin: 2px;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .fbouton p {
+    font-weight: bold;
+
+    text-align: center;
+    font-size: 1.15em;
+  }
+
+  .tfiltres/*debut bouton filtres*/ {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .filtresmedia {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 1em 0 1em;
+  }
+
+  .fa-info {
+    border: 3px solid #f2f2f2;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;
+    margin: auto;
+    width: 70%;
+    height: 40%;
+    color: #0065fc;
+    padding: auto;
+  }
+  .arrondis {
+    display: flex;
+    border: solid 1px #f2f2f2;
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+    align-items: center;
+  }
+  #nombre_logement p {
+    font-size: 1.4em;
+    margin: 10px;
+  }
+  #touthebergement {
+    display: flex;
+    width: 100%;
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 0;
+  }
+
+  .hebergemenent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+  }
+  .ligneherbergement {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 48%;
+  }
+  .encore {
+    height: 3%;
+  }
+  .encore p {
+    font-weight: bold;
+    padding-left: 0.5em;
+    font-size: 1.7em;
+  }
+
+  aside {
+    width: 100%;
+    height: 32%;
+    background-color: #f2f2f2;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0;
+  }
+  .populaires {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 15px 15px 15px;
+    border-radius: 10px;
+    height: 200px;
+    background-color: #ffffff;
+  }
+
+  .tout_her {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 2000px;
+  }
+  .hotel {
+    border-radius: 25px;
+    padding: 3px 3px 3px 3px;
+    width: 90%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: solid 2px #f2f2f2;
+  }
+  .populairet {
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
+    background-color: #f2f2f2;
+  }
+
+  #activites {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    max-height: 2100px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+
+  .tout_acti {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .acti_c1 {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 86%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 3px #f2f2f2;
+    border: solid 2px #f2f2f2;
+    margin: auto;
+  }
+
+  .acti_c2 {
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+
+    margin: auto;
+  }
+  .acti_c2_l1 {
+    border-radius: 20px 20px 20px 20px;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px #f2f2f2;
+    padding: 0em 0;
+    border: solid 2px #f2f2f2;
+    margin-top: 2em;
+  }
+  .acti_c2_l2 {
+    border-radius: 20px 20px 20px 20px;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px #f2f2f2;
+    padding: 0 0;
+    border: solid 2px #f2f2f2;
+    margin-bottom: 2em;
+  }
+
+  .acti_c3 {
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+    border-radius: 20px 20px 20px 20px;
+    height: 250px;
+    box-shadow: 3px 3px 3px #f2f2f2;
+    border: #f2f2f2 2px solid;
+    margin: auto;
+  }
+
+  .acti_c4 {
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+
+    margin: auto;
+  }
+
+  .acti_c4_l1 {
+    border-radius: 20px 20px 20px 20px;
+    height: 250px;
+    width: 100%;
+    box-shadow: 3px 3px 3px #f2f2f2;
+    border: #f2f2f2 2px solid;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .acti_c4_l2 {
+    border-radius: 20px 20px 20px 20px;
+    margin: 0 0 0 0;
+    height: 250px;
+    width: 100%;
+    box-shadow: 3px 3px 3px #f2f2f2;
+    border: #f2f2f2 2px solid;
+    margin-bottom: 4em;
+  }
+
+  footer {
+    margin: 0 0 0 0;
+    background-color: #f2f2f2;
+    height: auto;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 2em 2em;
+  }
+  #a_propos {
+    line-height: 2.5em;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 2.5em;
+    padding-left: 3em;
+    padding-top: 3em;
+  }
+  #herber_footer {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 2.5em;
+    padding-left: 3em;
+  }
+  #assistance {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 0.5em;
+    padding-left: 3em;
+  }
 }
 
 /*media querry pour les ecran de plus de 481px..........................................................................................*/
