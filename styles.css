@@ -949,7 +949,6 @@ section h2 {
     margin: 0;
     padding: 0;
     background-color: white;
-    border: solid 1px purple;
   }
 
   .tout_acti {
@@ -958,17 +957,15 @@ section h2 {
     width: 100%;
     height: auto;
     margin: 0;
-    padding: 0;
-    border: solid 2px blue;
   }
   .acti_c1 {
     display: flex;
     flex-direction: column;
-    flex: 15;
+    height: 250px;
     width: 86%;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 3px 3px 3px #f2f2f2;
-    border: solid 2px black;
+    border: solid 2px #f2f2f2;
     margin: auto;
   }
 
@@ -976,29 +973,30 @@ section h2 {
     display: flex;
     flex-direction: column;
     width: 86%;
-    flex: 30;
-    border: solid 2px blue;
+
     margin: auto;
   }
   .acti_c2_l1 {
     border-radius: 20px 20px 20px 20px;
-    flex: 50;
+    height: 250px;
     width: 100%;
     display: flex;
     flex-direction: column;
     box-shadow: 3px 3px 3px #f2f2f2;
-    padding: 2em 0;
-    border: solid 2px green;
+    padding: 0em 0;
+    border: solid 2px #f2f2f2;
+    margin-top: 2em;
   }
   .acti_c2_l2 {
     border-radius: 20px 20px 20px 20px;
-    flex: 50;
+    height: 250px;
     width: 100%;
     display: flex;
     flex-direction: column;
     box-shadow: 3px 3px 3px #f2f2f2;
-    padding: 2em 0;
-    border: solid 2px yellow;
+    padding: 0 0;
+    border: solid 2px #f2f2f2;
+    margin-bottom: 2em;
   }
 
   .acti_c3 {
@@ -1006,9 +1004,9 @@ section h2 {
     flex-direction: column;
     width: 86%;
     border-radius: 20px 20px 20px 20px;
-    flex: 15;
+    height: 250px;
     box-shadow: 3px 3px 3px #f2f2f2;
-    border: salmon 1px solid;
+    border: #f2f2f2 2px solid;
     margin: auto;
   }
 
@@ -1016,24 +1014,27 @@ section h2 {
     display: flex;
     flex-direction: column;
     width: 86%;
-    flex: 30;
-    border: tomato 1px solid;
+
     margin: auto;
   }
 
   .acti_c4_l1 {
     border-radius: 20px 20px 20px 20px;
-    flex: 50;
+    height: 250px;
     width: 100%;
     box-shadow: 3px 3px 3px #f2f2f2;
-    border: turquoise 1px solid;
+    border: #f2f2f2 2px solid;
+    margin-top: 2em;
+    margin-bottom: 2em;
   }
   .acti_c4_l2 {
     border-radius: 20px 20px 20px 20px;
     margin: 0 0 0 0;
-    flex: 50;
+    height: 250px;
     width: 100%;
     box-shadow: 3px 3px 3px #f2f2f2;
+    border: #f2f2f2 2px solid;
+    margin-bottom: 4em;
   }
 
   footer {
@@ -1043,8 +1044,7 @@ section h2 {
     display: flex;
     width: 100%;
     flex-direction: column;
-    padding: 0;
-    border: chartreuse solid 3px;
+    padding: 2em 2em;
   }
   #a_propos {
     line-height: 2.5em;
