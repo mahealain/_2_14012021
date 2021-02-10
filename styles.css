@@ -349,6 +349,7 @@ header {
   flex-direction: column;
   justify-content: center;
   height: 18%;
+  width: 100%;
 }
 .encore p {
   font-weight: bold;
@@ -873,17 +874,18 @@ section h2 {
     display: flex;
     width: 100%;
     flex-direction: column-reverse;
-    height: 2500px;
-    padding: 2em 0em 2em 0em;
+    height: auto;
+    margin: auto;
+    padding: 0;
   }
 
   .hebergemenent {
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: 100%;
     background-color: white;
     border-radius: 25px;
-    height: 62%;
+    margin: auto;
   }
   .ligneherbergement {
     display: flex;
@@ -913,16 +915,18 @@ section h2 {
     display: flex;
     flex-direction: column;
     width: 95%;
-    height: 1200px;
+    height: auto;
   }
   .hotel {
     border-radius: 25px;
-    margin: 3px 3px 3px 3px;
-    width: 95%;
+    padding: 3px 3px 3px 3px;
+    margin-top: 2em;
+    width: 100%;
     height: 33%;
     background-color: white;
     display: flex;
     flex-direction: column;
+    margin: auto;
   }
   .populairet {
     display: flex;
@@ -935,6 +939,10 @@ section h2 {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin: auto;
+    max-height: 2100px;
+    margin: 0;
+    padding: 0;
     background-color: white;
     border: solid 1px purple;
   }
@@ -951,23 +959,25 @@ section h2 {
   .acti_c1 {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    padding: 2em 0;
-    height: 15%;
+    flex: 15;
+    width: 86%;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 3px 3px 3px #f2f2f2;
     border: solid 2px black;
+    margin: auto;
   }
+
   .acti_c2 {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 30%;
+    width: 86%;
+    flex: 30;
     border: solid 2px blue;
+    margin: auto;
   }
   .acti_c2_l1 {
     border-radius: 20px 20px 20px 20px;
-    height: 50%;
+    flex: 50;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -977,7 +987,7 @@ section h2 {
   }
   .acti_c2_l2 {
     border-radius: 20px 20px 20px 20px;
-    height: 50%;
+    flex: 50;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -985,27 +995,30 @@ section h2 {
     padding: 2em 0;
     border: solid 2px yellow;
   }
+
   .acti_c3 {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 86%;
     border-radius: 20px 20px 20px 20px;
-    height: 30%;
+    flex: 15;
     box-shadow: 3px 3px 3px #f2f2f2;
     border: salmon 1px solid;
+    margin: auto;
   }
 
   .acti_c4 {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 30%;
+    width: 86%;
+    flex: 30;
     border: tomato 1px solid;
+    margin: auto;
   }
 
   .acti_c4_l1 {
     border-radius: 20px 20px 20px 20px;
-    height: 50%;
+    flex: 50;
     width: 100%;
     box-shadow: 3px 3px 3px #f2f2f2;
     border: turquoise 1px solid;
@@ -1013,20 +1026,20 @@ section h2 {
   .acti_c4_l2 {
     border-radius: 20px 20px 20px 20px;
     margin: 0 0 0 0;
-    height: 60%;
+    flex: 50;
     width: 100%;
     box-shadow: 3px 3px 3px #f2f2f2;
   }
 
   footer {
-    padding: 0 0 0 0;
+    margin: 0 0 0 0;
     background-color: #f2f2f2;
     height: auto;
     display: flex;
-    flex-direction: column;
     width: 100%;
-    padding-left: 4em;
-    padding: 3em 3em 3em 3em;
+    flex-direction: column;
+    padding: 0;
+    border: chartreuse solid 3px;
   }
   #a_propos {
     line-height: 2.5em;
@@ -1035,6 +1048,8 @@ section h2 {
     flex-direction: column;
     height: auto;
     padding-bottom: 2.5em;
+    padding-left: 3em;
+    padding-top: 3em;
   }
   #herber_footer {
     width: auto;
@@ -1042,6 +1057,7 @@ section h2 {
     flex-direction: column;
     height: auto;
     padding-bottom: 2.5em;
+    padding-left: 3em;
   }
   #assistance {
     width: auto;
@@ -1049,6 +1065,7 @@ section h2 {
     flex-direction: column;
     height: auto;
     padding-bottom: 0.5em;
+    padding-left: 3em;
   }
 }
 
