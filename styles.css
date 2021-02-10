@@ -892,6 +892,11 @@ section h2 {
   .encore {
     height: 3%;
   }
+  .encore p {
+    font-weight: bold;
+    padding-left: 0.5em;
+    font-size: 1.7em;
+  }
 
   aside {
     width: 100%;
