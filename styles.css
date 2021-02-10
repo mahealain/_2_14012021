@@ -31,7 +31,6 @@ a {
   display: flex;
   flex-direction: row;
   flex: 50%;
-  flex-direction: start;
 }
 
 .inscrirephone {
