@@ -736,8 +736,12 @@ section h2 {
     display: none;
   }
 }
-
+/*media query de 481px a 1024px.............................................................................................................*/
 @media all and (min-width: 481px) and (max-width: 1024px) {
+  .alaligne {
+    display: none;
+  }
+
   .block_recherche {
     display: flex;
     height: auto;
@@ -1090,7 +1094,7 @@ section h2 {
     padding-left: 3em;
   }
 }
-
+/* media query a jusqu'a 480 px ...............................................................................................*/
 @media all and (max-width: 480px) {
   .block_recherche {
     display: flex;
