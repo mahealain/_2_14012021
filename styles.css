@@ -271,17 +271,14 @@ header {
 .fbouton:hover .fa-child {
   background-color: #0065fc;
   color: white;
-  padding: auto;
 }
 .fbouton:hover .fa-heart {
   background-color: #0065fc;
   color: white;
-  padding: auto;
 }
 .fbouton:hover .fa-dog {
   background-color: #0065fc;
   color: white;
-  padding: auto;
 }
 
 .pfiltre {
