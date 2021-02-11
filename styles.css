@@ -177,32 +177,37 @@ header {
 }
 .formicone {
   margin-left: 0.1em;
+  font-size: 1.5em;
 }
-
-.formilleu {
+fa-map-marker-alt {
+  font-size: 5em;
+}
+fa-map-marker-alt . {
   border-right: none;
   border-left: none;
   border-top: #f2f2f2 1px solid;
   border-bottom: #f2f2f2 1px solid;
-  padding: 1em 1.25em;
+  padding: 8em 2.5em;
   box-sizing: border-box;
-  width: 15em;
+  width: 30em;
   font-size: 1em;
   font-weight: bold;
 }
 .formilleu::placeholder {
   color: black;
   font-size: 1.3em;
+  padding-left: 2em;
   font-weight: bold;
 }
 
 .boutonrecherche {
   background-color: #0065fc;
-  width: 12em;
+  width: 8em;
+  padding: 0.8em;
   font-weight: bold;
 
   border-radius: 0 1em 1em 0;
-  font-size: 1em;
+  font-size: 1.4em;
   cursor: pointer;
   border: 0;
 }
@@ -757,10 +762,6 @@ section h2 {
     border-radius: 1em 1em 1em 1em;
   }
 
-  .formilleu {
-    flex: 1;
-  }
-
   .formsous {
     display: block;
   }
@@ -815,6 +816,7 @@ section h2 {
     border-radius: 1em 0 0 1em;
     text-align: center;
   }
+
   .fa-map-marker-alt {
     font-size: 2em;
   }
