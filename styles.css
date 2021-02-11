@@ -505,10 +505,10 @@ aside {
 #activites {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 93%;
   margin: auto;
   background-color: white;
-  padding: 2em 3em 3em 3em;
+  padding: 2em 6em 3em 6em;
 }
 #a h2 {
   font-weight: bold;
@@ -1299,7 +1299,8 @@ section h2 {
   }
   #touthebergement {
     display: flex;
-    width: 100%;
+    width: 93%;
+    margin: auto;
     flex-direction: column-reverse;
     height: auto;
     padding: 0;
