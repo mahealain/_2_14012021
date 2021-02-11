@@ -414,10 +414,14 @@ fa-map-marker-alt {
 .hotel:hover {
   box-shadow: 3px 3px 3px #0065fc;
 }
-hotel h3,
-hotel p {
+.hotel h3,
+.hotel p {
   font-size: 1.8em;
 }
+.hotel h3 {
+  font-weight: bold;
+}
+
 aside {
   width: 26%;
   background-color: #f2f2f2;
