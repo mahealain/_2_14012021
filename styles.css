@@ -328,7 +328,7 @@ fa-map-marker-alt . {
   align-items: center;
 }
 .fa-info {
-  font-size: 0.8em;
+  font-size: 1em;
   display: flex;
   flex-direction: row;
   border-radius: 50%;
