@@ -509,6 +509,7 @@ aside {
   margin: auto;
   background-color: white;
   padding: 2em 6em 3em 6em;
+  margin-bottom: 3em;
 }
 #a h2 {
   font-weight: bold;
