@@ -325,6 +325,7 @@ fa-map-marker-alt . {
   flex-direction: row;
   font-size: 0.9em;
   padding-top: 1em;
+  align-items: center;
 }
 .fa-info {
   font-size: 0.8em;
