@@ -1400,10 +1400,20 @@ section h2 {
     flex-direction: column;
     width: 100%;
     margin: auto;
-    max-height: 1200px;
+    max-height: 3000px;
     margin: 0;
     padding: 0;
     background-color: white;
+  }
+  #activites h2 {
+    padding-left: 1em;
+    font-size: 2.2em;
+    font-weight: bolder;
+  }
+  #activites h3 {
+    padding-left: 1em;
+    font-size: 1.4em;
+    font-weight: bolder;
   }
 
   .tout_acti {
