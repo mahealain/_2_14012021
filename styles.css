@@ -244,6 +244,7 @@ fa-map-marker-alt {
 }
 .tfiltres p {
   font-weight: bolder;
+  font-size: 1.8em;
 }
 
 .filtres {
@@ -299,9 +300,9 @@ fa-map-marker-alt {
 
 .pfiltre {
   text-align: center;
-  margin: 0 1em 0 1em;
+  margin: 0 3em 0 3em;
   display: flex;
-  text-align: center;
+  align-items: center;
 }
 
 .fa-money-bill-wave /*pour maitre en bleu les icones de https://fontawesome.com/ */
