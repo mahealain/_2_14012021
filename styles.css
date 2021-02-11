@@ -261,17 +261,19 @@ fa-map-marker-alt . {
   cursor: pointer;
 }
 .fbouton:hover {
-  box-shadow: 5px 5px 2px #f2f2f2;
-  margin: 3px 3px;
-  color: #0065fc;
-  background-color: white;
-  padding: 0.2em;
+  border: 3px solid #f2f2f2;
+  box-shadow: 3px 3px 3px #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  margin: 1px;
+  border-radius: 50px;
+  height: 50px;
+  margin: 0 1em 0 1em;
+  cursor: pointer;
 }
 
 .fbouton:hover .filtres {
   background-color: #0065fc;
-  font-size: 1.8em;
-  padding: 0.5px;
 }
 
 .fbouton:hover .fa-money-bill-wave {
@@ -282,10 +284,12 @@ fa-map-marker-alt . {
   background-color: #0065fc;
   color: white;
 }
+
 .fbouton:hover .fa-heart {
   background-color: #0065fc;
   color: white;
 }
+
 .fbouton:hover .fa-dog {
   background-color: #0065fc;
   color: white;
@@ -301,19 +305,19 @@ fa-map-marker-alt . {
 .fa-money-bill-wave /*pour maitre en bleu les icones de https://fontawesome.com/ */
 {
   color: #0065fc;
-  font-size: 1.2em;
+  font-size: 1.6em;
 }
 .fa-child {
   color: #0065fc;
-  font-size: 1.2em;
+  font-size: 1.6em;
 }
 .fa-heart {
   color: #0065fc;
-  font-size: 1.2em;
+  font-size: 1.6em;
 }
 .fa-dog {
   color: #0065fc;
-  font-size: 1.2em;
+  font-size: 1.6em;
 } /*fin bouton filtres*/
 
 #nombre_logement {
