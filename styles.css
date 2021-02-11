@@ -379,22 +379,19 @@ fa-map-marker-alt {
   display: flex;
   flex-direction: column;
 }
+
 .hebergemenent h2 {
   font-size: 1.8em;
   font-weight: bold;
   margin-left: 1.3em;
 }
-.tout_her {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: stretch;
-  height: 98%;
-}
 
 .tout_her {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+
   width: 100%;
   height: 800px;
 }
@@ -935,6 +932,16 @@ section h2 {
     background-color: white;
     border-radius: 25px;
   }
+  .hebergemenent h2 {
+    font-size: 2.4em;
+    font-weight: bold;
+    padding-left: 0.8em;
+  }
+  .hebergemenent p {
+    font-size: 1.8em;
+    padding-left: 0.8em;
+  }
+
   .ligneherbergement {
     display: flex;
     flex-direction: column;
@@ -990,7 +997,7 @@ section h2 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 3000px;
+    height: 5000px;
   }
   .hotel {
     border-radius: 25px;
@@ -1151,8 +1158,9 @@ section h2 {
   }
 
   .fa-star {
-    font-size: 0.1em;
+    font-size: 2em;
     padding-bottom: 1em;
+    padding-left: 0.8em;
   }
 }
 /* media query a jusqu'a 480 px ...............................................................................................*/
@@ -1233,6 +1241,7 @@ section h2 {
     font-size: 2em;
   }
   .boutonrecherche {
+    margin-left: -2em;
     background-color: #0065fc;
     font-weight: bold;
     border-radius: 1em 1em 1em 1em;
