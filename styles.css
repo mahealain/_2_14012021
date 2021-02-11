@@ -804,10 +804,10 @@ section h2 {
     margin-top: 50px;
   }
   .boudebut {
-    margin-right: 6px;
+    margin-right: 2em;
     font-weight: bold;
     color: #0065fc;
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   .boutonbar:hover {
@@ -819,6 +819,10 @@ section h2 {
   }
   .boutonbar:hover p {
     color: #0065fc;
+    font-size: 2.4em;
+  }
+  .boutonbar p {
+    font-size: 2.4em;
   }
 
   .boutonbar {
@@ -1200,7 +1204,7 @@ section h2 {
     margin-left: 6px;
   }
   .boudebut {
-    margin-right: 6px;
+    margin-right: 02em;
     font-weight: bold;
     color: #0065fc;
     font-size: 1.5em;
