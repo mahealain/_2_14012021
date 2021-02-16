@@ -1402,18 +1402,19 @@ section h2 {
   }
   .encore p {
     font-weight: bold;
-    padding-left: 0.5em;
+    padding-left: 1.5em;
     font-size: 1.7em;
   }
 
   aside {
-    width: 100%;
+    width: 90%;
     height: 32%;
     background-color: #f2f2f2;
     margin: 0 0 0 0;
     display: flex;
     flex-direction: column;
     border-radius: 0 0;
+    margin: auto;
   }
   .populaires {
     display: flex;
