@@ -698,10 +698,13 @@ section h2 {
   padding-left: 10px;
 }
 
-.populaires h1,
 .populaires p,
 .populaires h2 {
   padding-left: 10px;
+  font-size: 1.5em;
+}
+.populaires h2 {
+  font-weight: 900;
 }
 .acti_c1 img,
 .acti_c3 img {
