@@ -61,7 +61,6 @@ a {
   border-left: 0;
   border-right: 0;
   border-bottom: 0;
-  border-top: 3px solid #0065fc; /*pour quand j'ai active en mode telephone pour efface les contour*/
   background-color: white;
 }
 
@@ -769,6 +768,17 @@ section h2 {
 }
 /*media query de 481px a 1024px.............................................................................................................*/
 @media all and (min-width: 481px) and (max-width: 1024px) {
+  .boudebut:link,
+  .boudebut:visited,
+  .boudebut:hover,
+  .boudebut:active {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    background-color: white;
+    border: solid 3px solid white;
+  }
+
   .alaligne {
     display: none;
   }
@@ -1036,6 +1046,9 @@ section h2 {
   #activites h3 {
     font-size: 2.4em;
   }
+  #activites h2 {
+    padding-left: 2em;
+  }
 
   .tout_acti {
     display: flex;
@@ -1170,6 +1183,17 @@ section h2 {
 }
 /* media query a jusqu'a 480 px ...............................................................................................*/
 @media all and (max-width: 480px) {
+  .boudebut:link,
+  .boudebut:visited,
+  .boudebut:hover,
+  .boudebut:active {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    background-color: white;
+    border: solid 3px solid white;
+  }
+
   .block_recherche {
     display: flex;
     height: auto;
@@ -1200,6 +1224,11 @@ section h2 {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    width: 100%;
+  }
+  header {
+    padding: 0;
+    margin: 0;
   }
   #bloklogo img {
     margin-left: 6px;
@@ -1226,6 +1255,14 @@ section h2 {
     display: block;
     width: 50%;
     text-align: center;
+    border-bottom: #f2f2f2;
+  }
+  .headerhd {
+    width: 100%;
+  }
+  .barnav {
+    border-bottom: solid 3px #f2f2f2;
+    width: 100%;
   }
   .slogan h1 {
     text-align: center;
@@ -1235,7 +1272,12 @@ section h2 {
     text-align: center;
     font-size: 1.5em;
   }
-
+  .imagelogo {
+    padding-left: 2em;
+  }
+  .inscrirephone {
+    padding-right: 2em;
+  }
   .place_logo {
     background-color: #f2f2f2;
     padding: 1em 1.25em;
@@ -1291,13 +1333,18 @@ section h2 {
     flex-wrap: wrap;
     width: 100%;
   }
+  .tfiltres {
+    padding-left: 2em;
+  }
+  #nombre_logement {
+    padding-left: 2em;
+  }
   .filtresmedia {
     text-align: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 80%;
-    margin: 0 1em 0 1em;
   }
 
   .fa-info {
@@ -1325,7 +1372,7 @@ section h2 {
   }
   #touthebergement {
     display: flex;
-    width: 93%;
+    width: 100%;
     margin: auto;
     flex-direction: column-reverse;
     height: auto;
@@ -1348,6 +1395,7 @@ section h2 {
     flex-direction: column;
     width: 95%;
     height: 48%;
+    margin: auto;
   }
   .encore {
     height: 3%;
