@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap"); /*appelle de la police raleway dasn google font*/
 
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0 0 0 0;
 }
@@ -1175,7 +1178,7 @@ section h2 {
   }
 
   .fa-star {
-    font-size: 2em;
+    font-size: 3em;
     padding-bottom: 1em;
     padding-left: 0.8em;
   }
