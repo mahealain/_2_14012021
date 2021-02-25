@@ -67,6 +67,12 @@ a {
   background-color: white;
 }
 
+.boutonbar,
+.boutonbar1 {
+  border-top: 3px #ffffff solid;
+  flex: 1;
+}
+
 .boutonbar1,
 .boutonbar:hover p {
   color: #0065fc;
@@ -74,25 +80,24 @@ a {
 
 .boutonbar:hover {
   border-top: solid 3px #0065fc;
-  width: 33%;
+
   text-align: center;
   color: #0065fc;
 }
 .boutonbar1:hover {
   border-top: solid 3px #0065fc;
-  width: 33%;
+
   text-align: center;
+  color: #0065fc;
 }
 
 .boutonbar1 {
-  display: block;
   width: 20%;
   text-align: center;
   padding: 50px;
 }
 
 .boutonbar {
-  display: block;
   width: 40%;
   text-align: center;
   padding: 50px;
